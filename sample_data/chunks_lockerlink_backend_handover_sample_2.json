@@ -1,0 +1,1010 @@
+[
+  {
+    "chunk_id": "8970e763-6cef-4f4c-870c-7b4580100964",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Markdown Parser",
+    "content": "README, 요구사항, architecture, API contract, database design, operations, known issues 문서를 `parse_markdown()`에 넣으면 heading 단위로 분리된다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Markdown Parser\nREADME, 요구사항, architecture, API contract, database design, operations, known issues 문서를 `parse_markdown()`에 넣으면 heading 단위로 분리된다."
+  },
+  {
+    "chunk_id": "b2298c85-c629-45ea-87f6-199d68c992f2",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Code Parser",
+    "content": "`src` 아래 TypeScript 파일을 `parse_ts()`에 넣으면 class, type, const 등의 최상위 선언 단위로 분리된다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Code Parser\n`src` 아래 TypeScript 파일을 `parse_ts()`에 넣으면 class, type, const 등의 최상위 선언 단위로 분리된다."
+  },
+  {
+    "chunk_id": "5f06b25c-aa40-492a-b439-eee5249a22bb",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Git Parser",
+    "content": "이 폴더에는 샘플 `.git` 이력이 포함되어 있다. 압축 해제 후 폴더 경로를 `parse_local_git_log()`에 전달하면 커밋과 변경 파일 정보를 확인할 수 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Git Parser\n이 폴더에는 샘플 `.git` 이력이 포함되어 있다. 압축 해제 후 폴더 경로를 `parse_local_git_log()`에 전달하면 커밋과 변경 파일 정보를 확인할 수 있다."
+  },
+  {
+    "chunk_id": "3f3f0c58-637f-4cde-b61e-5bf6c8bb3937",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Dataset Intent",
+    "content": "이 데이터는 스마트 무인택배함 서비스의 백엔드 개발자 한 명이 자신의 담당 기능을 후임자에게 인수인계하는 상황을 가정한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 13
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Dataset Intent\n이 데이터는 스마트 무인택배함 서비스의 백엔드 개발자 한 명이 자신의 담당 기능을 후임자에게 인수인계하는 상황을 가정한다."
+  },
+  {
+    "chunk_id": "934f8ef8-9337-4757-aa63-876a0c2e6e74",
+    "source_type": "requirement_doc",
+    "title": "LockerLink Backend Handover > 프로젝트 소개",
+    "content": "LockerLink는 아파트와 오피스 건물에 설치된 스마트 무인택배함을 관리하는 서비스다. 택배기사는 빈 보관함을 예약하고 물품을 보관할 수 있으며, 수령자는 일회용 픽업 코드를 사용해 자신의 택배함을 열 수 있다. 이 폴더는 LockerLink 백엔드 개발자 1명이 인수인계 시 후임자에게 전달하는 담당 업무 산출물 묶음이다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] LockerLink Backend Handover > 프로젝트 소개\nLockerLink는 아파트와 오피스 건물에 설치된 스마트 무인택배함을 관리하는 서비스다. 택배기사는 빈 보관함을 예약하고 물품을 보관할 수 있으며, 수령자는 일회용 픽업 코드를 사용해 자신의 택배함을 열 수 있다. 이 폴더는 LockerLink 백엔드 개발자 1명이 인수인계 시 후임자에게 전달하는 담당 업무 산출물 묶음이다."
+  },
+  {
+    "chunk_id": "9b26b95a-9e4d-4ac8-9077-aa9d0d23a38c",
+    "source_type": "requirement_doc",
+    "title": "LockerLink Backend Handover > 내가 담당한 범위",
+    "content": "빈 보관함 조회, 보관함 예약, 예약 만료 처리, 일회용 픽업 코드 발급과 검증, 보관함 상태 변경 로직을 담당했다. 실제 IoT 장비 펌웨어와 모바일 앱 UI는 담당 범위에 포함되지 않는다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] LockerLink Backend Handover > 내가 담당한 범위\n빈 보관함 조회, 보관함 예약, 예약 만료 처리, 일회용 픽업 코드 발급과 검증, 보관함 상태 변경 로직을 담당했다. 실제 IoT 장비 펌웨어와 모바일 앱 UI는 담당 범위에 포함되지 않는다."
+  },
+  {
+    "chunk_id": "dab5d529-d448-4eb2-903c-40f6a4af6194",
+    "source_type": "requirement_doc",
+    "title": "LockerLink Backend Handover > 기술 스택",
+    "content": "Node.js, TypeScript, Express 기반 REST API로 구성되어 있다. PostgreSQL을 사용하며 Redis는 짧은 TTL의 예약 잠금과 픽업 코드 시도 횟수 제한에 사용한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] LockerLink Backend Handover > 기술 스택\nNode.js, TypeScript, Express 기반 REST API로 구성되어 있다. PostgreSQL을 사용하며 Redis는 짧은 TTL의 예약 잠금과 픽업 코드 시도 횟수 제한에 사용한다."
+  },
+  {
+    "chunk_id": "27611892-e81b-42a7-9c9b-73140f4056e3",
+    "source_type": "requirement_doc",
+    "title": "LockerLink Backend Handover > 실행 방법",
+    "content": "Node.js 20 이상을 사용한다. `npm install` 후 `npm run dev`를 실행한다. 로컬 실행에 필요한 환경 변수는 `.env.example`을 참고한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 14
+    },
+    "embedding_text": "[요구사항 문서] LockerLink Backend Handover > 실행 방법\nNode.js 20 이상을 사용한다. `npm install` 후 `npm run dev`를 실행한다. 로컬 실행에 필요한 환경 변수는 `.env.example`을 참고한다."
+  },
+  {
+    "chunk_id": "8b8c0d8c-ac08-43c6-9b34-c9cdc1b9cbc2",
+    "source_type": "requirement_doc",
+    "title": "LockerLink Backend Handover > 주요 폴더",
+    "content": "`requirements`에는 담당 기능 요구사항, `docs`에는 백엔드 설계와 데이터 모델 및 운영 메모, `src`에는 실제 구현 코드, `tests`에는 담당 기능 테스트가 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 15,
+      "end_line": 17
+    },
+    "embedding_text": "[요구사항 문서] LockerLink Backend Handover > 주요 폴더\n`requirements`에는 담당 기능 요구사항, `docs`에는 백엔드 설계와 데이터 모델 및 운영 메모, `src`에는 실제 구현 코드, `tests`에는 담당 기능 테스트가 있다."
+  },
+  {
+    "chunk_id": "e8bf4148-0ea9-43fb-8114-8dc5e3c763dc",
+    "source_type": "requirement_doc",
+    "title": "LockerLink Backend Handover > 인수인계 시 우선 확인",
+    "content": "`docs/known-issues.md`를 먼저 확인한다. 예약 동시성 제어와 픽업 코드 저장 방식에 설계와 실제 구현이 다른 부분이 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 18,
+      "end_line": 19
+    },
+    "embedding_text": "[요구사항 문서] LockerLink Backend Handover > 인수인계 시 우선 확인\n`docs/known-issues.md`를 먼저 확인한다. 예약 동시성 제어와 픽업 코드 저장 방식에 설계와 실제 구현이 다른 부분이 있다."
+  },
+  {
+    "chunk_id": "a08bbda5-f446-4132-adf4-9e0a2f834bd2",
+    "source_type": "requirement_doc",
+    "title": "API Contract > POST /api/v1/reservations",
+    "content": "보관함을 10분간 임시 예약한다. body는 `lockerId`, `recipientId`를 포함한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/api-contract.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] API Contract > POST /api/v1/reservations\n보관함을 10분간 임시 예약한다. body는 `lockerId`, `recipientId`를 포함한다."
+  },
+  {
+    "chunk_id": "f316f0d9-028e-4d9d-9686-c9502a7f54d3",
+    "source_type": "requirement_doc",
+    "title": "API Contract > POST /api/v1/reservations > Success",
+    "content": "HTTP 201과 reservationId, expiresAt을 반환한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/api-contract.md",
+    "metadata": {
+      "heading_level": 3,
+      "start_line": 12,
+      "end_line": 14
+    },
+    "embedding_text": "[요구사항 문서] API Contract > POST /api/v1/reservations > Success\nHTTP 201과 reservationId, expiresAt을 반환한다."
+  },
+  {
+    "chunk_id": "82b798e0-0521-47dd-be50-7a3745b55bad",
+    "source_type": "requirement_doc",
+    "title": "API Contract > POST /api/v1/reservations > Errors",
+    "content": "이미 예약된 보관함이면 409 `LOCKER_ALREADY_RESERVED`를 반환한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/api-contract.md",
+    "metadata": {
+      "heading_level": 3,
+      "start_line": 15,
+      "end_line": 17
+    },
+    "embedding_text": "[요구사항 문서] API Contract > POST /api/v1/reservations > Errors\n이미 예약된 보관함이면 409 `LOCKER_ALREADY_RESERVED`를 반환한다."
+  },
+  {
+    "chunk_id": "b5d7923e-70ad-4f45-8fa5-7171ab5d55be",
+    "source_type": "requirement_doc",
+    "title": "API Contract > POST /api/v1/reservations/:reservationId/confirm > Success",
+    "content": "HTTP 200과 pickupCode를 반환한다. 실제 운영 로그에는 pickupCode 원문을 남기지 않는다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/api-contract.md",
+    "metadata": {
+      "heading_level": 3,
+      "start_line": 21,
+      "end_line": 23
+    },
+    "embedding_text": "[요구사항 문서] API Contract > POST /api/v1/reservations/:reservationId/confirm > Success\nHTTP 200과 pickupCode를 반환한다. 실제 운영 로그에는 pickupCode 원문을 남기지 않는다."
+  },
+  {
+    "chunk_id": "fb781ce4-83e2-4d27-b057-e04562e570ca",
+    "source_type": "requirement_doc",
+    "title": "API Contract > POST /api/v1/pickup/verify",
+    "content": "reservationId와 pickupCode를 받아 검증한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/api-contract.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 24,
+      "end_line": 26
+    },
+    "embedding_text": "[요구사항 문서] API Contract > POST /api/v1/pickup/verify\nreservationId와 pickupCode를 받아 검증한다."
+  },
+  {
+    "chunk_id": "1a857436-3ded-4872-afae-86408c4ccfaa",
+    "source_type": "requirement_doc",
+    "title": "API Contract > POST /api/v1/pickup/verify > Success",
+    "content": "HTTP 200과 `{ \"openRequested\": true }`를 반환한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/api-contract.md",
+    "metadata": {
+      "heading_level": 3,
+      "start_line": 27,
+      "end_line": 29
+    },
+    "embedding_text": "[요구사항 문서] API Contract > POST /api/v1/pickup/verify > Success\nHTTP 200과 `{ \"openRequested\": true }`를 반환한다."
+  },
+  {
+    "chunk_id": "06746775-b7a2-4670-ad68-ea23bf612f4f",
+    "source_type": "requirement_doc",
+    "title": "API Contract > POST /api/v1/pickup/verify > Errors",
+    "content": "잘못된 코드는 401, 시도 횟수 초과는 429를 반환한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/api-contract.md",
+    "metadata": {
+      "heading_level": 3,
+      "start_line": 30,
+      "end_line": 31
+    },
+    "embedding_text": "[요구사항 문서] API Contract > POST /api/v1/pickup/verify > Errors\n잘못된 코드는 401, 시도 횟수 초과는 429를 반환한다."
+  },
+  {
+    "chunk_id": "85ddc784-b167-4148-acc7-9970da303a0f",
+    "source_type": "requirement_doc",
+    "title": "Backend Architecture > Reservation Flow",
+    "content": "보관함 예약은 `ReservationService`에서 처리한다. 보관함의 현재 상태 확인, 임시 예약 생성, 만료 시각 설정을 하나의 트랜잭션으로 묶는 것을 원칙으로 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/backend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Backend Architecture > Reservation Flow\n보관함 예약은 `ReservationService`에서 처리한다. 보관함의 현재 상태 확인, 임시 예약 생성, 만료 시각 설정을 하나의 트랜잭션으로 묶는 것을 원칙으로 한다."
+  },
+  {
+    "chunk_id": "63e03e1b-8dd1-4109-b0aa-53ce77294667",
+    "source_type": "requirement_doc",
+    "title": "Backend Architecture > Concurrency Control",
+    "content": "동일 보관함에 대한 중복 예약을 막기 위해 데이터베이스 row lock 또는 유일 제약 조건을 사용해야 한다. Redis lock은 보조 수단으로 사용할 수 있지만 최종 정합성은 데이터베이스가 보장해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/backend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Backend Architecture > Concurrency Control\n동일 보관함에 대한 중복 예약을 막기 위해 데이터베이스 row lock 또는 유일 제약 조건을 사용해야 한다. Redis lock은 보조 수단으로 사용할 수 있지만 최종 정합성은 데이터베이스가 보장해야 한다."
+  },
+  {
+    "chunk_id": "b64d664b-9368-4703-9a67-f7fc095f5bea",
+    "source_type": "requirement_doc",
+    "title": "Backend Architecture > Pickup Code",
+    "content": "픽업 코드는 6자리 숫자로 생성한다. 서버에는 원문 코드를 저장하지 않고 SHA-256 해시만 저장하며 성공 검증 후 즉시 사용 완료 처리한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/backend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Backend Architecture > Pickup Code\n픽업 코드는 6자리 숫자로 생성한다. 서버에는 원문 코드를 저장하지 않고 SHA-256 해시만 저장하며 성공 검증 후 즉시 사용 완료 처리한다."
+  },
+  {
+    "chunk_id": "a2b0389e-438f-42b5-812f-68eb52b3c7b4",
+    "source_type": "requirement_doc",
+    "title": "Backend Architecture > Expiry Worker",
+    "content": "만료 배치는 1분 주기로 실행하며 `PENDING` 상태이면서 `expires_at < now()`인 예약을 조회해 EXPIRED로 변경한다. 동시에 연결된 보관함 상태를 AVAILABLE로 복귀시킨다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/backend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 14
+    },
+    "embedding_text": "[요구사항 문서] Backend Architecture > Expiry Worker\n만료 배치는 1분 주기로 실행하며 `PENDING` 상태이면서 `expires_at < now()`인 예약을 조회해 EXPIRED로 변경한다. 동시에 연결된 보관함 상태를 AVAILABLE로 복귀시킨다."
+  },
+  {
+    "chunk_id": "876488c4-a8e7-4244-b434-e90ffa1a5d2a",
+    "source_type": "requirement_doc",
+    "title": "Backend Architecture > Error Handling",
+    "content": "도메인 충돌은 `AppError`로 변환한다. 예약 충돌은 409 `LOCKER_ALREADY_RESERVED`, 잘못된 픽업 코드는 401 `INVALID_PICKUP_CODE`, 잠긴 픽업 시도는 429 `PICKUP_ATTEMPT_LOCKED`를 사용한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/backend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 15,
+      "end_line": 16
+    },
+    "embedding_text": "[요구사항 문서] Backend Architecture > Error Handling\n도메인 충돌은 `AppError`로 변환한다. 예약 충돌은 409 `LOCKER_ALREADY_RESERVED`, 잘못된 픽업 코드는 401 `INVALID_PICKUP_CODE`, 잠긴 픽업 시도는 429 `PICKUP_ATTEMPT_LOCKED`를 사용한다."
+  },
+  {
+    "chunk_id": "2636a34a-469a-4630-9054-3f13f83fffed",
+    "source_type": "requirement_doc",
+    "title": "Database Design > lockers",
+    "content": "보관함의 현재 상태를 저장한다. 주요 컬럼은 `id`, `location_id`, `size`, `status`, `updated_at`이다. status는 AVAILABLE, RESERVED, OCCUPIED, OPEN_REQUESTED, MAINTENANCE 중 하나다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/database-design.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Database Design > lockers\n보관함의 현재 상태를 저장한다. 주요 컬럼은 `id`, `location_id`, `size`, `status`, `updated_at`이다. status는 AVAILABLE, RESERVED, OCCUPIED, OPEN_REQUESTED, MAINTENANCE 중 하나다."
+  },
+  {
+    "chunk_id": "ce03087f-a42d-4e07-97aa-fd09a62650ec",
+    "source_type": "requirement_doc",
+    "title": "Database Design > reservations",
+    "content": "보관함 예약을 저장한다. 주요 컬럼은 `id`, `locker_id`, `recipient_id`, `status`, `expires_at`, `confirmed_at`, `created_at`이다. status는 PENDING, CONFIRMED, EXPIRED, PICKED_UP 중 하나다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/database-design.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Database Design > reservations\n보관함 예약을 저장한다. 주요 컬럼은 `id`, `locker_id`, `recipient_id`, `status`, `expires_at`, `confirmed_at`, `created_at`이다. status는 PENDING, CONFIRMED, EXPIRED, PICKED_UP 중 하나다."
+  },
+  {
+    "chunk_id": "562099b1-984d-4e12-bc61-b3072ada7eb1",
+    "source_type": "requirement_doc",
+    "title": "Database Design > pickup_codes",
+    "content": "픽업 코드 정보를 저장한다. 주요 컬럼은 `reservation_id`, `code_hash`, `used_at`, `failed_attempts`, `locked_until`이다. 원문 code 컬럼을 두지 않는 것을 원칙으로 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/database-design.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Database Design > pickup_codes\n픽업 코드 정보를 저장한다. 주요 컬럼은 `reservation_id`, `code_hash`, `used_at`, `failed_attempts`, `locked_until`이다. 원문 code 컬럼을 두지 않는 것을 원칙으로 한다."
+  },
+  {
+    "chunk_id": "3b9d2f6e-17fb-468c-9d60-0c67dece336c",
+    "source_type": "requirement_doc",
+    "title": "Database Design > 제약 조건",
+    "content": "하나의 locker_id에 대해 활성 PENDING 또는 CONFIRMED 예약이 하나만 존재하도록 데이터베이스 제약을 두는 것을 목표로 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/database-design.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 13
+    },
+    "embedding_text": "[요구사항 문서] Database Design > 제약 조건\n하나의 locker_id에 대해 활성 PENDING 또는 CONFIRMED 예약이 하나만 존재하도록 데이터베이스 제약을 두는 것을 목표로 한다."
+  },
+  {
+    "chunk_id": "999fb548-6162-4d7f-9bf4-1a6918e60a27",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-BE-11 예약 중복 생성 가능성",
+    "content": "현재 `ReservationService.reserve()`는 보관함 상태를 읽은 뒤 별도 update를 수행한다. 데이터베이스 row lock이나 유일 제약이 아직 적용되지 않아 고동시성 상황에서 중복 예약 가능성이 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-BE-11 예약 중복 생성 가능성\n현재 `ReservationService.reserve()`는 보관함 상태를 읽은 뒤 별도 update를 수행한다. 데이터베이스 row lock이나 유일 제약이 아직 적용되지 않아 고동시성 상황에서 중복 예약 가능성이 있다."
+  },
+  {
+    "chunk_id": "cacad1d3-64e9-4872-a618-050723fc6433",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-BE-12 픽업 코드 원문 저장",
+    "content": "설계 문서에서는 픽업 코드 hash만 저장한다고 되어 있으나 현재 `PickupCodeRepository`는 원문 `code` 값을 메모리 구조에 저장한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-BE-12 픽업 코드 원문 저장\n설계 문서에서는 픽업 코드 hash만 저장한다고 되어 있으나 현재 `PickupCodeRepository`는 원문 `code` 값을 메모리 구조에 저장한다."
+  },
+  {
+    "chunk_id": "5545557a-224d-4421-a014-a7c0cbc83558",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-BE-13 실패 횟수 제한 미완료",
+    "content": "BE-304는 5회 실패 시 10분 잠금을 요구하지만 현재 `PickupService.verify()`는 실패 횟수만 증가시키고 lockedUntil을 설정하지 않는다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-BE-13 실패 횟수 제한 미완료\nBE-304는 5회 실패 시 10분 잠금을 요구하지만 현재 `PickupService.verify()`는 실패 횟수만 증가시키고 lockedUntil을 설정하지 않는다."
+  },
+  {
+    "chunk_id": "bb793b1c-1ee3-4d9a-84ee-c00e3e584a28",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-BE-14 예약 만료 처리 분리",
+    "content": "ExpiryWorker는 reservation 상태를 EXPIRED로 바꾸지만 locker 상태를 AVAILABLE로 되돌리는 호출이 누락된 경로가 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 14
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-BE-14 예약 만료 처리 분리\nExpiryWorker는 reservation 상태를 EXPIRED로 바꾸지만 locker 상태를 AVAILABLE로 되돌리는 호출이 누락된 경로가 있다."
+  },
+  {
+    "chunk_id": "53d53094-7eef-486b-822d-7707db8fddee",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-BE-15 Confirm 응답 보안",
+    "content": "현재 confirm API는 pickupCode 원문을 응답한다. 이는 요구사항상 필요하지만 응답 로깅 middleware가 body 전체를 기록할 경우 코드가 로그에 남을 가능성이 있어 필터링이 필요하다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 15,
+      "end_line": 16
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-BE-15 Confirm 응답 보안\n현재 confirm API는 pickupCode 원문을 응답한다. 이는 요구사항상 필요하지만 응답 로깅 middleware가 body 전체를 기록할 경우 코드가 로그에 남을 가능성이 있어 필터링이 필요하다."
+  },
+  {
+    "chunk_id": "bc025271-9497-4453-971b-e7d86518dea4",
+    "source_type": "requirement_doc",
+    "title": "Operations Notes > Expiry Worker",
+    "content": "예약 만료 작업은 1분마다 실행한다. worker 로그에는 처리한 reservationId와 lockerId, 결과 상태를 남긴다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/operations.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Operations Notes > Expiry Worker\n예약 만료 작업은 1분마다 실행한다. worker 로그에는 처리한 reservationId와 lockerId, 결과 상태를 남긴다."
+  },
+  {
+    "chunk_id": "ac85198e-0a1b-4de7-bbd1-414173f0573d",
+    "source_type": "requirement_doc",
+    "title": "Operations Notes > Pickup Abuse Monitoring",
+    "content": "동일 예약에 대해 잘못된 픽업 코드 시도가 반복되면 failed_attempts를 증가시키고 5회 이상이면 locked_until을 10분 뒤로 설정한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/operations.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Operations Notes > Pickup Abuse Monitoring\n동일 예약에 대해 잘못된 픽업 코드 시도가 반복되면 failed_attempts를 증가시키고 5회 이상이면 locked_until을 10분 뒤로 설정한다."
+  },
+  {
+    "chunk_id": "3e5b4967-f986-4ad6-bda9-fe7d4e1650f6",
+    "source_type": "requirement_doc",
+    "title": "Operations Notes > Locker State Recovery",
+    "content": "장비 장애나 네트워크 오류로 OPEN_REQUESTED 상태가 장시간 유지될 수 있다. 5분 이상 유지되면 운영 대시보드에서 수동 확인 대상으로 표시한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/operations.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Operations Notes > Locker State Recovery\n장비 장애나 네트워크 오류로 OPEN_REQUESTED 상태가 장시간 유지될 수 있다. 5분 이상 유지되면 운영 대시보드에서 수동 확인 대상으로 표시한다."
+  },
+  {
+    "chunk_id": "ff6ae84a-35f4-4d4c-8c11-62dc986a78d2",
+    "source_type": "requirement_doc",
+    "title": "Operations Notes > Sensitive Logging",
+    "content": "pickupCode 원문, recipient 개인정보, Redis key 전체값은 운영 로그에 남기지 않는다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/operations.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 13
+    },
+    "embedding_text": "[요구사항 문서] Operations Notes > Sensitive Logging\npickupCode 원문, recipient 개인정보, Redis key 전체값은 운영 로그에 남기지 않는다."
+  },
+  {
+    "chunk_id": "78f365e8-6139-4a38-b47a-d604b6e87e0c",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > BE-301 빈 보관함 조회",
+    "content": "사용자는 특정 지점에서 현재 사용 가능한 보관함 목록을 조회할 수 있어야 한다. 이미 예약되었거나 점검 중인 보관함은 제외해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11,
+      "frontmatter": {
+        "project": "LockerLink",
+        "role": "Backend Developer",
+        "handover_scope": "locker-reservation, pickup-code, expiry-worker"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > BE-301 빈 보관함 조회\n사용자는 특정 지점에서 현재 사용 가능한 보관함 목록을 조회할 수 있어야 한다. 이미 예약되었거나 점검 중인 보관함은 제외해야 한다."
+  },
+  {
+    "chunk_id": "4a71822e-7855-4968-b5b7-121d99207aaa",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > BE-302 보관함 임시 예약",
+    "content": "택배기사가 빈 보관함을 선택하면 10분 동안 임시 예약 상태를 유지해야 한다. 같은 보관함에 대해 동시에 두 개의 활성 예약이 생성되면 안 된다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 14,
+      "frontmatter": {
+        "project": "LockerLink",
+        "role": "Backend Developer",
+        "handover_scope": "locker-reservation, pickup-code, expiry-worker"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > BE-302 보관함 임시 예약\n택배기사가 빈 보관함을 선택하면 10분 동안 임시 예약 상태를 유지해야 한다. 같은 보관함에 대해 동시에 두 개의 활성 예약이 생성되면 안 된다."
+  },
+  {
+    "chunk_id": "12520e8c-6495-42c9-b8a8-e4b1c714d23c",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > BE-303 예약 확정",
+    "content": "택배 보관이 완료되면 임시 예약을 확정하고 보관함 상태를 OCCUPIED로 변경해야 한다. 확정된 예약에는 수령자용 일회성 픽업 코드를 발급한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 15,
+      "end_line": 17,
+      "frontmatter": {
+        "project": "LockerLink",
+        "role": "Backend Developer",
+        "handover_scope": "locker-reservation, pickup-code, expiry-worker"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > BE-303 예약 확정\n택배 보관이 완료되면 임시 예약을 확정하고 보관함 상태를 OCCUPIED로 변경해야 한다. 확정된 예약에는 수령자용 일회성 픽업 코드를 발급한다."
+  },
+  {
+    "chunk_id": "3c99dfcc-eca0-425d-adf8-fb02aa8c4a7d",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > BE-304 픽업 코드 검증",
+    "content": "수령자가 올바른 픽업 코드를 입력하면 보관함을 OPEN_REQUESTED 상태로 변경하고 해당 픽업 코드는 즉시 재사용할 수 없게 해야 한다. 5회 연속 실패 시 10분 동안 추가 시도를 차단해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 18,
+      "end_line": 20,
+      "frontmatter": {
+        "project": "LockerLink",
+        "role": "Backend Developer",
+        "handover_scope": "locker-reservation, pickup-code, expiry-worker"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > BE-304 픽업 코드 검증\n수령자가 올바른 픽업 코드를 입력하면 보관함을 OPEN_REQUESTED 상태로 변경하고 해당 픽업 코드는 즉시 재사용할 수 없게 해야 한다. 5회 연속 실패 시 10분 동안 추가 시도를 차단해야 한다."
+  },
+  {
+    "chunk_id": "d8eae35d-731a-4a79-8217-0ad05b625c15",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > BE-305 예약 만료 배치",
+    "content": "10분 내 확정되지 않은 임시 예약은 자동 만료되어야 하며 해당 보관함은 AVAILABLE 상태로 복귀해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 21,
+      "end_line": 22,
+      "frontmatter": {
+        "project": "LockerLink",
+        "role": "Backend Developer",
+        "handover_scope": "locker-reservation, pickup-code, expiry-worker"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > BE-305 예약 만료 배치\n10분 내 확정되지 않은 임시 예약은 자동 만료되어야 하며 해당 보관함은 AVAILABLE 상태로 복귀해야 한다."
+  },
+  {
+    "chunk_id": "1b34b9ba-7cb1-461f-969b-923056ccdb23",
+    "source_type": "code",
+    "title": "src/common/AppError.ts :: class AppError",
+    "content": "export class AppError extends Error {\n  constructor(\n    public readonly status: number,\n    public readonly code: string,\n    message: string\n  ) {\n    super(message);\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/common/AppError.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 1,
+      "end_line": 9,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/common/AppError.ts :: class AppError\nexport class AppError extends Error {\n  constructor(\n    public readonly status: number,\n    public readonly code: string,\n    message: string\n  ) {\n    super(message);\n  }\n}"
+  },
+  {
+    "chunk_id": "c108891a-3df3-47fc-b4fe-5f025dd32338",
+    "source_type": "code",
+    "title": "src/lockers/LockerController.ts :: class LockerController",
+    "content": "export class LockerController {\n  constructor(private readonly lockers: LockerRepository) {}\n\n  async available(req: Request, res: Response) {\n    const locationId = req.params.locationId;\n    const lockers = await this.lockers.findAvailable(locationId);\n\n    return res.status(200).json(lockers);\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/lockers/LockerController.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 4,
+      "end_line": 13,
+      "imports": [
+        "express",
+        "./LockerRepository"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/lockers/LockerController.ts :: class LockerController\nexport class LockerController {\n  constructor(private readonly lockers: LockerRepository) {}\n\n  async available(req: Request, res: Response) {\n    const locationId = req.params.locationId;\n    const lockers = await this.lockers.findAvailable(locationId);\n\n    return res.status(200).json(lockers);\n  }\n}"
+  },
+  {
+    "chunk_id": "4104953a-58f8-45d6-822e-45c47c9384d8",
+    "source_type": "code",
+    "title": "src/lockers/LockerRepository.ts :: type LockerStatus",
+    "content": "export type LockerStatus =\n  | \"AVAILABLE\"\n  | \"RESERVED\"\n  | \"OCCUPIED\"\n  | \"OPEN_REQUESTED\"\n  | \"MAINTENANCE\";",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/lockers/LockerRepository.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 1,
+      "end_line": 6,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/lockers/LockerRepository.ts :: type LockerStatus\nexport type LockerStatus =\n  | \"AVAILABLE\"\n  | \"RESERVED\"\n  | \"OCCUPIED\"\n  | \"OPEN_REQUESTED\"\n  | \"MAINTENANCE\";"
+  },
+  {
+    "chunk_id": "5936cec0-2625-4712-96ef-2701b84c93cd",
+    "source_type": "code",
+    "title": "src/lockers/LockerRepository.ts :: type Locker",
+    "content": "export type Locker = {\n  id: string;\n  locationId: string;\n  size: \"S\" | \"M\" | \"L\";\n  status: LockerStatus;\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/lockers/LockerRepository.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 8,
+      "end_line": 13,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/lockers/LockerRepository.ts :: type Locker\nexport type Locker = {\n  id: string;\n  locationId: string;\n  size: \"S\" | \"M\" | \"L\";\n  status: LockerStatus;\n};"
+  },
+  {
+    "chunk_id": "977e24e1-b58c-46ea-81df-f2ac45d90bb8",
+    "source_type": "code",
+    "title": "src/lockers/LockerRepository.ts :: class LockerRepository",
+    "content": "export class LockerRepository {\n  private lockers: Locker[] = [\n    { id: \"L-101\", locationId: \"LOC-1\", size: \"M\", status: \"AVAILABLE\" },\n    { id: \"L-102\", locationId: \"LOC-1\", size: \"L\", status: \"MAINTENANCE\" },\n  ];\n\n  async findAvailable(locationId: string) {\n    return this.lockers.filter(\n      (locker) =>\n        locker.locationId === locationId &&\n        locker.status === \"AVAILABLE\"\n    );\n  }\n\n  async findById(lockerId: string) {\n    return this.lockers.find((locker) => locker.id === lockerId) ?? null;\n  }\n\n  async updateStatus(lockerId: string, status: LockerStatus) {\n    const locker = this.lockers.find((item) => item.id === lockerId);\n    if (!locker) return null;\n    locker.status = status;\n    return locker;\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/lockers/LockerRepository.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 15,
+      "end_line": 39,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/lockers/LockerRepository.ts :: class LockerRepository\nexport class LockerRepository {\n  private lockers: Locker[] = [\n    { id: \"L-101\", locationId: \"LOC-1\", size: \"M\", status: \"AVAILABLE\" },\n    { id: \"L-102\", locationId: \"LOC-1\", size: \"L\", status: \"MAINTENANCE\" },\n  ];\n\n  async findAvailable(locationId: string) {\n    return this.lockers.filter(\n      (locker) =>\n        locker.locationId === locationId &&\n        locker.status === \"AVAILABLE\"\n    );\n  }\n\n  async findById(lockerId: string) {\n    return this.lockers.find((locker) => locker.id === lockerId) ?? null;\n  }\n\n  async updateStatus(lockerId: string, status: LockerStatus) {\n    const locker = this.lockers.find((item) => item.id === lockerId);\n    if (!locker) return null;\n    locker.status = status;\n    return locker;\n  }\n}"
+  },
+  {
+    "chunk_id": "8cb3069c-8e6d-4a4f-bd18-dc88353dd5b5",
+    "source_type": "code",
+    "title": "src/pickup/PickupCodeRepository.ts :: type PickupCodeRecord",
+    "content": "export type PickupCodeRecord = {\n  reservationId: string;\n  code: string;\n  usedAt: Date | null;\n  failedAttempts: number;\n  lockedUntil: Date | null;\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/pickup/PickupCodeRepository.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 1,
+      "end_line": 7,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/pickup/PickupCodeRepository.ts :: type PickupCodeRecord\nexport type PickupCodeRecord = {\n  reservationId: string;\n  code: string;\n  usedAt: Date | null;\n  failedAttempts: number;\n  lockedUntil: Date | null;\n};"
+  },
+  {
+    "chunk_id": "0d24a56c-d450-4eaf-b479-4bdf73c7e940",
+    "source_type": "code",
+    "title": "src/pickup/PickupCodeRepository.ts :: class PickupCodeRepository",
+    "content": "export class PickupCodeRepository {\n  private codes: PickupCodeRecord[] = [];\n\n  async save(record: PickupCodeRecord) {\n    this.codes.push(record);\n  }\n\n  async findByReservationId(reservationId: string) {\n    return this.codes.find((item) => item.reservationId === reservationId) ?? null;\n  }\n\n  async markUsed(reservationId: string) {\n    const record = await this.findByReservationId(reservationId);\n    if (record) {\n      record.usedAt = new Date();\n    }\n  }\n\n  async incrementFailure(reservationId: string) {\n    const record = await this.findByReservationId(reservationId);\n    if (record) {\n      record.failedAttempts += 1;\n    }\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/pickup/PickupCodeRepository.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 9,
+      "end_line": 33,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/pickup/PickupCodeRepository.ts :: class PickupCodeRepository\nexport class PickupCodeRepository {\n  private codes: PickupCodeRecord[] = [];\n\n  async save(record: PickupCodeRecord) {\n    this.codes.push(record);\n  }\n\n  async findByReservationId(reservationId: string) {\n    return this.codes.find((item) => item.reservationId === reservationId) ?? null;\n  }\n\n  async markUsed(reservationId: string) {\n    const record = await this.findByReservationId(reservationId);\n    if (record) {\n      record.usedAt = new Date();\n    }\n  }\n\n  async incrementFailure(reservationId: string) {\n    const record = await this.findByReservationId(reservationId);\n    if (record) {\n      record.failedAttempts += 1;\n    }\n  }\n}"
+  },
+  {
+    "chunk_id": "72b095f1-faca-4827-9748-6229adeb2df3",
+    "source_type": "code",
+    "title": "src/pickup/PickupService.ts :: class PickupService",
+    "content": "export class PickupService {\n  constructor(\n    private readonly codes: PickupCodeRepository,\n    private readonly reservations: ReservationRepository,\n    private readonly lockers: LockerRepository\n  ) {}\n\n  async verify(reservationId: string, pickupCode: string) {\n    const code = await this.codes.findByReservationId(reservationId);\n\n    if (!code || code.usedAt) {\n      throw new AppError(\n        401,\n        \"INVALID_PICKUP_CODE\",\n        \"Pickup code is invalid\"\n      );\n    }\n\n    if (code.lockedUntil && code.lockedUntil.getTime() > Date.now()) {\n      throw new AppError(\n        429,\n        \"PICKUP_ATTEMPT_LOCKED\",\n        \"Pickup attempts are temporarily locked\"\n      );\n    }\n\n    if (code.code !== pickupCode) {\n      await this.codes.incrementFailure(reservationId);\n      throw new AppError(\n        401,\n        \"INVALID_PICKUP_CODE\",\n        \"Pickup code is invalid\"\n      );\n    }\n\n    const reservation = await this.reservations.findById(reservationId);\n    if (!reservation) {\n      throw new AppError(404, \"RESERVATION_NOT_FOUND\", \"Reservation not found\");\n    }\n\n    await this.codes.markUsed(reservationId);\n    await this.lockers.updateStatus(\n      reservation.lockerId,\n      \"OPEN_REQUESTED\"\n    );\n\n    return { openRequested: true };\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/pickup/PickupService.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 6,
+      "end_line": 54,
+      "imports": [
+        "../common/AppError",
+        "../lockers/LockerRepository",
+        "./PickupCodeRepository",
+        "../reservations/ReservationRepository"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/pickup/PickupService.ts :: class PickupService\nexport class PickupService {\n  constructor(\n    private readonly codes: PickupCodeRepository,\n    private readonly reservations: ReservationRepository,\n    private readonly lockers: LockerRepository\n  ) {}\n\n  async verify(reservationId: string, pickupCode: string) {\n    const code = await this.codes.findByReservationId(reservationId);\n\n    if (!code || code.usedAt) {\n      throw new AppError(\n        401,\n        \"INVALID_PICKUP_CODE\",\n        \"Pickup code is invalid\"\n      );\n    }\n\n    if (code.lockedUntil && code.lockedUntil.getTime() > Date.now()) {\n      throw new AppError(\n        429,\n        \"PICKUP_ATTEMPT_LOCKED\",\n        \"Pickup attempts are temporarily locked\"\n      );\n    }\n\n    if (code.code !== pickupCode) {\n      await this.codes.incrementFailure(reservationId);\n      throw new AppError(\n        401,\n        \"INVALID_PICKUP_CODE\",\n        \"Pickup code is invalid\"\n      );\n    }\n\n    const reservation = await this.reservations.findById(reservationId);\n    if (!reservation) {\n      throw new AppError(404, \"RESERVATION_NOT_FOUND\", \"Reservation not found\");\n    }\n\n    await this.codes.markUsed(reservationId);\n    await this.lockers.updateStatus(\n      reservation.lockerId,\n      \"OPEN_REQUESTED\"\n    );\n\n    return { openRequested: true };\n  }\n}"
+  },
+  {
+    "chunk_id": "93d3bc98-57b0-4962-bfa5-219437178bfa",
+    "source_type": "code",
+    "title": "src/reservations/ReservationController.ts :: class ReservationController",
+    "content": "export class ReservationController {\n  constructor(private readonly service: ReservationService) {}\n\n  async create(req: Request, res: Response) {\n    const result = await this.service.reserve(\n      String(req.body.lockerId),\n      String(req.body.recipientId)\n    );\n\n    return res.status(201).json({\n      reservationId: result.id,\n      expiresAt: result.expiresAt,\n    });\n  }\n\n  async confirm(req: Request, res: Response) {\n    const result = await this.service.confirm(req.params.reservationId);\n    return res.status(200).json(result);\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/reservations/ReservationController.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 4,
+      "end_line": 23,
+      "imports": [
+        "express",
+        "./ReservationService"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/reservations/ReservationController.ts :: class ReservationController\nexport class ReservationController {\n  constructor(private readonly service: ReservationService) {}\n\n  async create(req: Request, res: Response) {\n    const result = await this.service.reserve(\n      String(req.body.lockerId),\n      String(req.body.recipientId)\n    );\n\n    return res.status(201).json({\n      reservationId: result.id,\n      expiresAt: result.expiresAt,\n    });\n  }\n\n  async confirm(req: Request, res: Response) {\n    const result = await this.service.confirm(req.params.reservationId);\n    return res.status(200).json(result);\n  }\n}"
+  },
+  {
+    "chunk_id": "041426d1-971a-4862-99f3-2d497cc5c690",
+    "source_type": "code",
+    "title": "src/reservations/ReservationRepository.ts :: type ReservationStatus",
+    "content": "export type ReservationStatus =\n  | \"PENDING\"\n  | \"CONFIRMED\"\n  | \"EXPIRED\"\n  | \"PICKED_UP\";",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/reservations/ReservationRepository.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 1,
+      "end_line": 5,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/reservations/ReservationRepository.ts :: type ReservationStatus\nexport type ReservationStatus =\n  | \"PENDING\"\n  | \"CONFIRMED\"\n  | \"EXPIRED\"\n  | \"PICKED_UP\";"
+  },
+  {
+    "chunk_id": "90467450-49b0-40ab-a793-67eb7d318344",
+    "source_type": "code",
+    "title": "src/reservations/ReservationRepository.ts :: type Reservation",
+    "content": "export type Reservation = {\n  id: string;\n  lockerId: string;\n  recipientId: string;\n  status: ReservationStatus;\n  expiresAt: Date;\n  confirmedAt: Date | null;\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/reservations/ReservationRepository.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 7,
+      "end_line": 14,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/reservations/ReservationRepository.ts :: type Reservation\nexport type Reservation = {\n  id: string;\n  lockerId: string;\n  recipientId: string;\n  status: ReservationStatus;\n  expiresAt: Date;\n  confirmedAt: Date | null;\n};"
+  },
+  {
+    "chunk_id": "88fb6aea-8553-40e0-9669-21a3c5b5ba52",
+    "source_type": "code",
+    "title": "src/reservations/ReservationRepository.ts :: class ReservationRepository",
+    "content": "export class ReservationRepository {\n  private reservations: Reservation[] = [];\n\n  async create(reservation: Reservation) {\n    this.reservations.push(reservation);\n    return reservation;\n  }\n\n  async findById(id: string) {\n    return this.reservations.find((item) => item.id === id) ?? null;\n  }\n\n  async findExpired(now: Date) {\n    return this.reservations.filter(\n      (item) =>\n        item.status === \"PENDING\" &&\n        item.expiresAt.getTime() < now.getTime()\n    );\n  }\n\n  async updateStatus(id: string, status: ReservationStatus) {\n    const reservation = this.reservations.find((item) => item.id === id);\n    if (!reservation) return null;\n    reservation.status = status;\n    if (status === \"CONFIRMED\") {\n      reservation.confirmedAt = new Date();\n    }\n    return reservation;\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/reservations/ReservationRepository.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 16,
+      "end_line": 45,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/reservations/ReservationRepository.ts :: class ReservationRepository\nexport class ReservationRepository {\n  private reservations: Reservation[] = [];\n\n  async create(reservation: Reservation) {\n    this.reservations.push(reservation);\n    return reservation;\n  }\n\n  async findById(id: string) {\n    return this.reservations.find((item) => item.id === id) ?? null;\n  }\n\n  async findExpired(now: Date) {\n    return this.reservations.filter(\n      (item) =>\n        item.status === \"PENDING\" &&\n        item.expiresAt.getTime() < now.getTime()\n    );\n  }\n\n  async updateStatus(id: string, status: ReservationStatus) {\n    const reservation = this.reservations.find((item) => item.id === id);\n    if (!reservation) return null;\n    reservation.status = status;\n    if (status === \"CONFIRMED\") {\n      reservation.confirmedAt = new Date();\n    }\n    return reservation;\n  }\n}"
+  },
+  {
+    "chunk_id": "4ff6b753-9cd3-48b4-84cc-3bcccbd20f3b",
+    "source_type": "code",
+    "title": "src/reservations/ReservationService.ts :: class ReservationService",
+    "content": "export class ReservationService {\n  constructor(\n    private readonly lockers: LockerRepository,\n    private readonly reservations: ReservationRepository,\n    private readonly pickupCodes: PickupCodeRepository\n  ) {}\n\n  async reserve(lockerId: string, recipientId: string) {\n    const locker = await this.lockers.findById(lockerId);\n\n    if (!locker || locker.status !== \"AVAILABLE\") {\n      throw new AppError(\n        409,\n        \"LOCKER_ALREADY_RESERVED\",\n        \"Locker is not available\"\n      );\n    }\n\n    const reservation = await this.reservations.create({\n      id: randomUUID(),\n      lockerId,\n      recipientId,\n      status: \"PENDING\",\n      expiresAt: new Date(Date.now() + 10 * 60 * 1000),\n      confirmedAt: null,\n    });\n\n    await this.lockers.updateStatus(lockerId, \"RESERVED\");\n    return reservation;\n  }\n\n  async confirm(reservationId: string) {\n    const reservation = await this.reservations.findById(reservationId);\n\n    if (!reservation || reservation.status !== \"PENDING\") {\n      throw new AppError(\n        409,\n        \"RESERVATION_NOT_CONFIRMABLE\",\n        \"Reservation cannot be confirmed\"\n      );\n    }\n\n    const pickupCode = String(Math.floor(100000 + Math.random() * 900000));\n\n    await this.reservations.updateStatus(reservationId, \"CONFIRMED\");\n    await this.lockers.updateStatus(reservation.lockerId, \"OCCUPIED\");\n    await this.pickupCodes.save({\n      reservationId,\n      code: pickupCode,\n      usedAt: null,\n      failedAttempts: 0,\n      lockedUntil: null,\n    });\n\n    return { pickupCode };\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/reservations/ReservationService.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 7,
+      "end_line": 63,
+      "imports": [
+        "crypto",
+        "../common/AppError",
+        "../lockers/LockerRepository",
+        "../pickup/PickupCodeRepository",
+        "./ReservationRepository"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/reservations/ReservationService.ts :: class ReservationService\nexport class ReservationService {\n  constructor(\n    private readonly lockers: LockerRepository,\n    private readonly reservations: ReservationRepository,\n    private readonly pickupCodes: PickupCodeRepository\n  ) {}\n\n  async reserve(lockerId: string, recipientId: string) {\n    const locker = await this.lockers.findById(lockerId);\n\n    if (!locker || locker.status !== \"AVAILABLE\") {\n      throw new AppError(\n        409,\n        \"LOCKER_ALREADY_RESERVED\",\n        \"Locker is not available\"\n      );\n    }\n\n    const reservation = await this.reservations.create({\n      id: randomUUID(),\n      lockerId,\n      recipientId,\n      status: \"PENDING\",\n      expiresAt: new Date(Date.now() + 10 * 60 * 1000),\n      confirmedAt: null,\n    });\n\n    await this.lockers.updateStatus(lockerId, \"RESERVED\");\n    return reservation;\n  }\n\n  async confirm(reservationId: string) {\n    const reservation = await this.reservations.findById(reservationId);\n\n    if (!reservation || reservation.status !== \"PENDING\") {\n      throw new AppError(\n        409,\n        \"RESERVATION_NOT_CONFIRMABLE\",\n        \"Reservation cannot be confirmed\"\n      );\n    }\n\n    const pickupCode = String(Math.floor(100000 + Math.random() * 900000));\n\n    await this.reservations.updateStatus(reservationId, \"CONFIRMED\");\n    await this.lockers.updateStatus(reservation.lockerId, \"OCCUPIED\");\n    await this.pickupCodes.save({\n      reservationId,\n      code: pickupCode,\n      usedAt: null,\n      failedAttempts: 0,\n      lockedUntil: null,\n    });\n\n    return { pickupCode };\n  }\n}"
+  },
+  {
+    "chunk_id": "8c00eaaf-8497-4f6c-ae62-3f969bde3070",
+    "source_type": "code",
+    "title": "src/workers/ExpiryWorker.ts :: class ExpiryWorker",
+    "content": "export class ExpiryWorker {\n  constructor(\n    private readonly reservations: ReservationRepository,\n    private readonly lockers: LockerRepository\n  ) {}\n\n  async runOnce(now = new Date()) {\n    const expired = await this.reservations.findExpired(now);\n\n    for (const reservation of expired) {\n      await this.reservations.updateStatus(\n        reservation.id,\n        \"EXPIRED\"\n      );\n\n      // TODO(BE-305): locker 상태 AVAILABLE 복귀가 일부 경로에서 누락됨\n      if (reservation.lockerId.startsWith(\"LEGACY-\")) {\n        continue;\n      }\n\n      await this.lockers.updateStatus(\n        reservation.lockerId,\n        \"AVAILABLE\"\n      );\n    }\n\n    return expired.length;\n  }\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/workers/ExpiryWorker.ts",
+    "metadata": {
+      "kind": "class",
+      "exported": true,
+      "start_line": 4,
+      "end_line": 32,
+      "imports": [
+        "../lockers/LockerRepository",
+        "../reservations/ReservationRepository"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/workers/ExpiryWorker.ts :: class ExpiryWorker\nexport class ExpiryWorker {\n  constructor(\n    private readonly reservations: ReservationRepository,\n    private readonly lockers: LockerRepository\n  ) {}\n\n  async runOnce(now = new Date()) {\n    const expired = await this.reservations.findExpired(now);\n\n    for (const reservation of expired) {\n      await this.reservations.updateStatus(\n        reservation.id,\n        \"EXPIRED\"\n      );\n\n      // TODO(BE-305): locker 상태 AVAILABLE 복귀가 일부 경로에서 누락됨\n      if (reservation.lockerId.startsWith(\"LEGACY-\")) {\n        continue;\n      }\n\n      await this.lockers.updateStatus(\n        reservation.lockerId,\n        \"AVAILABLE\"\n      );\n    }\n\n    return expired.length;\n  }\n}"
+  },
+  {
+    "chunk_id": "5477e43b-1866-4817-80c8-d4dd51b0358c",
+    "source_type": "code",
+    "title": "tests/expiry-worker.test.ts :: other expiry-worker.test",
+    "content": "import { describe, expect, it } from \"vitest\";\n\ndescribe(\"ExpiryWorker\", () => {\n  it(\"만료된 예약은 EXPIRED 상태가 되어야 한다\", () => {\n    expect(\"EXPIRED\").toBe(\"EXPIRED\");\n  });\n\n  // locker AVAILABLE 복귀에 대한 legacy 경로 테스트는 없음\n});\n",
+    "author": null,
+    "created_at": null,
+    "file_path": "tests/expiry-worker.test.ts",
+    "metadata": {
+      "kind": "other",
+      "exported": false,
+      "start_line": 1,
+      "end_line": 9,
+      "imports": [
+        "vitest"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] tests/expiry-worker.test.ts :: other expiry-worker.test\nimport { describe, expect, it } from \"vitest\";\n\ndescribe(\"ExpiryWorker\", () => {\n  it(\"만료된 예약은 EXPIRED 상태가 되어야 한다\", () => {\n    expect(\"EXPIRED\").toBe(\"EXPIRED\");\n  });\n\n  // locker AVAILABLE 복귀에 대한 legacy 경로 테스트는 없음\n});\n"
+  },
+  {
+    "chunk_id": "53bb2551-704c-4986-a726-462b29e16650",
+    "source_type": "code",
+    "title": "tests/pickup.test.ts :: other pickup.test",
+    "content": "import { describe, expect, it } from \"vitest\";\n\ndescribe(\"PickupService\", () => {\n  it(\"사용 완료된 픽업 코드는 재사용할 수 없어야 한다\", () => {\n    const used = true;\n    expect(used).toBe(true);\n  });\n\n  // BE-304 5회 실패 후 10분 잠금 테스트는 아직 작성되지 않음\n});\n",
+    "author": null,
+    "created_at": null,
+    "file_path": "tests/pickup.test.ts",
+    "metadata": {
+      "kind": "other",
+      "exported": false,
+      "start_line": 1,
+      "end_line": 10,
+      "imports": [
+        "vitest"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] tests/pickup.test.ts :: other pickup.test\nimport { describe, expect, it } from \"vitest\";\n\ndescribe(\"PickupService\", () => {\n  it(\"사용 완료된 픽업 코드는 재사용할 수 없어야 한다\", () => {\n    const used = true;\n    expect(used).toBe(true);\n  });\n\n  // BE-304 5회 실패 후 10분 잠금 테스트는 아직 작성되지 않음\n});\n"
+  },
+  {
+    "chunk_id": "c43bbd84-58f7-4a3f-9b3b-2b8c80228c73",
+    "source_type": "code",
+    "title": "tests/reservation.test.ts :: other reservation.test",
+    "content": "import { describe, expect, it } from \"vitest\";\n\ndescribe(\"ReservationService\", () => {\n  it(\"예약 만료 시간은 생성 시점 기준 10분 후여야 한다\", () => {\n    const tenMinutes = 10 * 60 * 1000;\n    expect(tenMinutes).toBe(600000);\n  });\n\n  // BE-302 동시 예약 경쟁 조건 테스트는 아직 작성되지 않음\n});\n",
+    "author": null,
+    "created_at": null,
+    "file_path": "tests/reservation.test.ts",
+    "metadata": {
+      "kind": "other",
+      "exported": false,
+      "start_line": 1,
+      "end_line": 10,
+      "imports": [
+        "vitest"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] tests/reservation.test.ts :: other reservation.test\nimport { describe, expect, it } from \"vitest\";\n\ndescribe(\"ReservationService\", () => {\n  it(\"예약 만료 시간은 생성 시점 기준 10분 후여야 한다\", () => {\n    const tenMinutes = 10 * 60 * 1000;\n    expect(tenMinutes).toBe(600000);\n  });\n\n  // BE-302 동시 예약 경쟁 조건 테스트는 아직 작성되지 않음\n});\n"
+  },
+  {
+    "chunk_id": "1fde201f-ef6f-4aea-92b7-820c3ce7601f",
+    "source_type": "git_commit",
+    "title": "feat: add reservation expiry worker",
+    "content": "feat: add reservation expiry worker\n\nExpires pending reservations. Legacy locker state recovery path remains incomplete.\n\n[변경 파일]\n- src/workers/ExpiryWorker.ts (+32/-0)\n- tests/expiry-worker.test.ts (+9/-0)",
+    "author": "Seo Backend",
+    "created_at": "2026-08-26T14:26:55Z",
+    "file_path": null,
+    "metadata": {
+      "sha": "11261ddf48456056ba8aa99bb6b55444cb74bdcd",
+      "email": "seo.backend@example.com",
+      "files_changed": 2,
+      "lines_added": 41,
+      "lines_deleted": 0
+    },
+    "embedding_text": "[커밋] feat: add reservation expiry worker\nfeat: add reservation expiry worker\n\nExpires pending reservations. Legacy locker state recovery path remains incomplete.\n\n[변경 파일]\n- src/workers/ExpiryWorker.ts (+32/-0)\n- tests/expiry-worker.test.ts (+9/-0)"
+  },
+  {
+    "chunk_id": "f9d17984-7566-4cde-98aa-9f94d64b0e64",
+    "source_type": "git_commit",
+    "title": "feat: implement locker reservation and pickup flow",
+    "content": "feat: implement locker reservation and pickup flow\n\nImplements reservation, confirmation and pickup verification. Concurrency protection and pickup lockout are incomplete.\n\n[변경 파일]\n- src/common/AppError.ts (+9/-0)\n- src/lockers/LockerController.ts (+13/-0)\n- src/lockers/LockerRepository.ts (+39/-0)\n- src/pickup/PickupCodeRepository.ts (+33/-0)\n- src/pickup/PickupService.ts (+54/-0)\n- src/reservations/ReservationController.ts (+23/-0)\n- src/reservations/ReservationRepository.ts (+45/-0)\n- src/reservations/ReservationService.ts (+63/-0)\n- tests/pickup.test.ts (+10/-0)\n- tests/reservation.test.ts (+10/-0)",
+    "author": "Seo Backend",
+    "created_at": "2026-08-26T14:26:55Z",
+    "file_path": null,
+    "metadata": {
+      "sha": "b65e28a91399aea6f8eef56e9e8b9389ae43ac8b",
+      "email": "seo.backend@example.com",
+      "files_changed": 10,
+      "lines_added": 299,
+      "lines_deleted": 0
+    },
+    "embedding_text": "[커밋] feat: implement locker reservation and pickup flow\nfeat: implement locker reservation and pickup flow\n\nImplements reservation, confirmation and pickup verification. Concurrency protection and pickup lockout are incomplete.\n\n[변경 파일]\n- src/common/AppError.ts (+9/-0)\n- src/lockers/LockerController.ts (+13/-0)\n- src/lockers/LockerRepository.ts (+39/-0)\n- src/pickup/PickupCodeRepository.ts (+33/-0)\n- src/pickup/PickupService.ts (+54/-0)\n- src/reservations/ReservationController.ts (+23/-0)\n- src/reservations/ReservationRepository.ts (+45/-0)\n- src/reservations/ReservationService.ts (+63/-0)\n- tests/pickup.test.ts (+10/-0)\n- tests/reservation.test.ts (+10/-0)"
+  },
+  {
+    "chunk_id": "11052246-3bdf-4dce-abbb-d05b8d4a9c1b",
+    "source_type": "git_commit",
+    "title": "docs: define locker reservation backend handover",
+    "content": "docs: define locker reservation backend handover\n\nAdds BE-301 through BE-305, architecture, API contract and operations notes.\n\n[변경 파일]\n- .env.example (+5/-0)\n- PARSER_TEST.md (+13/-0)\n- README.md (+19/-0)\n- docs/api-contract.md (+31/-0)\n- docs/backend-architecture.md (+16/-0)\n- docs/database-design.md (+13/-0)\n- docs/known-issues.md (+16/-0)\n- docs/operations.md (+13/-0)\n- package.json (+22/-0)\n- requirements/assigned-tasks.md (+22/-0)",
+    "author": "Seo Backend",
+    "created_at": "2026-08-26T14:26:55Z",
+    "file_path": null,
+    "metadata": {
+      "sha": "32309010a2f39fd372081bd759535f836062a1d4",
+      "email": "seo.backend@example.com",
+      "files_changed": 10,
+      "lines_added": 170,
+      "lines_deleted": 0
+    },
+    "embedding_text": "[커밋] docs: define locker reservation backend handover\ndocs: define locker reservation backend handover\n\nAdds BE-301 through BE-305, architecture, API contract and operations notes.\n\n[변경 파일]\n- .env.example (+5/-0)\n- PARSER_TEST.md (+13/-0)\n- README.md (+19/-0)\n- docs/api-contract.md (+31/-0)\n- docs/backend-architecture.md (+16/-0)\n- docs/database-design.md (+13/-0)\n- docs/known-issues.md (+16/-0)\n- docs/operations.md (+13/-0)\n- package.json (+22/-0)\n- requirements/assigned-tasks.md (+22/-0)"
+  }
+]

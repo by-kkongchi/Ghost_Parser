@@ -1,0 +1,7 @@
+# Ghost Member 백엔드 의존성
+# 설치: source ~/venv312/bin/activate && pip install -r requirements.txt
+fastapi
+uvicorn
+python-multipart      # FastAPI 파일 업로드(Form/File)에 필요
+qdrant-client         # 벡터 DB
+ibm-watsonx-ai        # watsonx 임베딩 + LLM

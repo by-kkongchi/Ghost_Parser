@@ -1,0 +1,869 @@
+[
+  {
+    "chunk_id": "f32ae626-9b3a-4846-acb1-d163442c0cb1",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Markdown Parser",
+    "content": "`requirements/assigned-tasks.md`, `docs/frontend-architecture.md`, `docs/auth-flow.md`, `docs/known-issues.md`, `README.md`를 `parse_markdown()`에 넣으면 heading 단위로 나뉜다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Markdown Parser\n`requirements/assigned-tasks.md`, `docs/frontend-architecture.md`, `docs/auth-flow.md`, `docs/known-issues.md`, `README.md`를 `parse_markdown()`에 넣으면 heading 단위로 나뉜다."
+  },
+  {
+    "chunk_id": "5e671b72-df50-4f03-8212-753cc646c7f1",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Code Parser",
+    "content": "`src` 아래 `.ts`와 `.tsx` 파일을 `parse_ts()`에 넣으면 최상위 function, const, interface, type, component 단위로 나뉜다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Code Parser\n`src` 아래 `.ts`와 `.tsx` 파일을 `parse_ts()`에 넣으면 최상위 function, const, interface, type, component 단위로 나뉜다."
+  },
+  {
+    "chunk_id": "c7394a0c-7b77-477b-81fd-931c9d9a5063",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Git Parser",
+    "content": "이 폴더에는 샘플 `.git` 이력이 포함되어 있다. 압축 해제 후 폴더 경로를 `parse_local_git_log()`에 전달하면 커밋과 변경 파일 정보를 확인할 수 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Git Parser\n이 폴더에는 샘플 `.git` 이력이 포함되어 있다. 압축 해제 후 폴더 경로를 `parse_local_git_log()`에 전달하면 커밋과 변경 파일 정보를 확인할 수 있다."
+  },
+  {
+    "chunk_id": "247c7d41-f814-40ed-9604-53d2f17d76ed",
+    "source_type": "requirement_doc",
+    "title": "Parser Test Guide > Dataset Intent",
+    "content": "이 데이터는 프로젝트 전체 조직 산출물이 아니라 프론트엔드 개발자 한 명이 자신의 담당 업무를 후임자에게 넘기는 상황을 가정한다. 따라서 백엔드 코드, DB ERD, Swagger/OpenAPI 같은 백엔드·공용 문서는 포함하지 않았다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "PARSER_TEST.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 13
+    },
+    "embedding_text": "[요구사항 문서] Parser Test Guide > Dataset Intent\n이 데이터는 프로젝트 전체 조직 산출물이 아니라 프론트엔드 개발자 한 명이 자신의 담당 업무를 후임자에게 넘기는 상황을 가정한다. 따라서 백엔드 코드, DB ERD, Swagger/OpenAPI 같은 백엔드·공용 문서는 포함하지 않았다."
+  },
+  {
+    "chunk_id": "823dd5e0-925e-4dfd-ac2b-6f36d8b49fc8",
+    "source_type": "requirement_doc",
+    "title": "Orbit Board Frontend Handover > 프로젝트 소개",
+    "content": "Orbit Board는 사내 프로젝트 팀이 업무 카드를 생성하고 담당자를 지정한 뒤, TODO / IN_PROGRESS / DONE 상태로 진행 상황을 관리하는 웹 서비스다. 이 폴더는 Orbit Board 프론트엔드 개발자 1명이 인수인계 시 후임자에게 전달하는 담당 업무 산출물 묶음이다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Orbit Board Frontend Handover > 프로젝트 소개\nOrbit Board는 사내 프로젝트 팀이 업무 카드를 생성하고 담당자를 지정한 뒤, TODO / IN_PROGRESS / DONE 상태로 진행 상황을 관리하는 웹 서비스다. 이 폴더는 Orbit Board 프론트엔드 개발자 1명이 인수인계 시 후임자에게 전달하는 담당 업무 산출물 묶음이다."
+  },
+  {
+    "chunk_id": "912dd841-9ba5-4851-8ec0-551263002b40",
+    "source_type": "requirement_doc",
+    "title": "Orbit Board Frontend Handover > 내가 담당한 범위",
+    "content": "로그인 화면과 인증 상태 복원, 업무 보드 조회, 업무 카드 상태 변경 UI를 담당했다. 백엔드 자체 구현이나 데이터베이스 설계는 담당 범위에 포함되지 않는다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Orbit Board Frontend Handover > 내가 담당한 범위\n로그인 화면과 인증 상태 복원, 업무 보드 조회, 업무 카드 상태 변경 UI를 담당했다. 백엔드 자체 구현이나 데이터베이스 설계는 담당 범위에 포함되지 않는다."
+  },
+  {
+    "chunk_id": "afbcd565-f4ba-48b3-972f-832b150dea94",
+    "source_type": "requirement_doc",
+    "title": "Orbit Board Frontend Handover > 기술 스택",
+    "content": "React, TypeScript, Vite를 사용한다. 서버 통신은 브라우저 Fetch API를 래핑한 프론트엔드 API 모듈을 통해 처리한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Orbit Board Frontend Handover > 기술 스택\nReact, TypeScript, Vite를 사용한다. 서버 통신은 브라우저 Fetch API를 래핑한 프론트엔드 API 모듈을 통해 처리한다."
+  },
+  {
+    "chunk_id": "88c671ab-22eb-456b-b36a-c897f736c335",
+    "source_type": "requirement_doc",
+    "title": "Orbit Board Frontend Handover > 실행 방법",
+    "content": "Node.js 18 이상을 기준으로 작성했다. `npm install` 후 `npm run dev`를 실행한다. 개발 API 주소는 `.env.example`의 `VITE_API_BASE_URL` 값을 참고한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 14
+    },
+    "embedding_text": "[요구사항 문서] Orbit Board Frontend Handover > 실행 방법\nNode.js 18 이상을 기준으로 작성했다. `npm install` 후 `npm run dev`를 실행한다. 개발 API 주소는 `.env.example`의 `VITE_API_BASE_URL` 값을 참고한다."
+  },
+  {
+    "chunk_id": "5dde787a-1df7-430e-9fa5-acd233ef6189",
+    "source_type": "requirement_doc",
+    "title": "Orbit Board Frontend Handover > 주요 폴더",
+    "content": "`requirements`에는 담당 기능 요구사항, `docs`에는 프론트엔드 설계와 인수인계 메모, `src`에는 실제 구현 코드, `tests`에는 담당 기능 테스트가 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 15,
+      "end_line": 17
+    },
+    "embedding_text": "[요구사항 문서] Orbit Board Frontend Handover > 주요 폴더\n`requirements`에는 담당 기능 요구사항, `docs`에는 프론트엔드 설계와 인수인계 메모, `src`에는 실제 구현 코드, `tests`에는 담당 기능 테스트가 있다."
+  },
+  {
+    "chunk_id": "48319940-20f7-4ede-891f-6b6aba2e8d21",
+    "source_type": "requirement_doc",
+    "title": "Orbit Board Frontend Handover > 인수인계 시 우선 확인",
+    "content": "`docs/known-issues.md`를 먼저 확인하는 것을 권장한다. 현재 인증 복원 방식과 업무 상태 변경 로직에는 문서와 실제 코드가 완전히 일치하지 않는 부분이 남아 있다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "README.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 18,
+      "end_line": 19
+    },
+    "embedding_text": "[요구사항 문서] Orbit Board Frontend Handover > 인수인계 시 우선 확인\n`docs/known-issues.md`를 먼저 확인하는 것을 권장한다. 현재 인증 복원 방식과 업무 상태 변경 로직에는 문서와 실제 코드가 완전히 일치하지 않는 부분이 남아 있다."
+  },
+  {
+    "chunk_id": "3558fe7a-cb04-4f26-bde9-c51a79e7dad0",
+    "source_type": "requirement_doc",
+    "title": "Authentication Flow > 로그인",
+    "content": "`LoginPage`에서 이메일과 비밀번호를 입력받아 `useAuth.login`을 호출한다. 로그인 성공 후 `/board`로 이동한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/auth-flow.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Authentication Flow > 로그인\n`LoginPage`에서 이메일과 비밀번호를 입력받아 `useAuth.login`을 호출한다. 로그인 성공 후 `/board`로 이동한다."
+  },
+  {
+    "chunk_id": "b2546d00-93c6-4346-8149-bdaab10e2d5a",
+    "source_type": "requirement_doc",
+    "title": "Authentication Flow > 세션 복원",
+    "content": "앱 초기 진입 시 `useAuth.restoreSession`을 실행한다. 설계상 리프레시 요청은 HttpOnly Cookie를 사용하고 `credentials: include`로 전송해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/auth-flow.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Authentication Flow > 세션 복원\n앱 초기 진입 시 `useAuth.restoreSession`을 실행한다. 설계상 리프레시 요청은 HttpOnly Cookie를 사용하고 `credentials: include`로 전송해야 한다."
+  },
+  {
+    "chunk_id": "3a897f83-cf2b-49a5-91f9-3aefe4682bba",
+    "source_type": "requirement_doc",
+    "title": "Authentication Flow > 로그아웃",
+    "content": "로그아웃 시 메모리의 액세스 토큰을 제거하고 로그인 화면으로 이동한다. 장기 인증 정보는 프론트엔드 코드에서 직접 삭제하지 않고 서버 로그아웃 API로 만료시키는 것이 목표다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/auth-flow.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 10
+    },
+    "embedding_text": "[요구사항 문서] Authentication Flow > 로그아웃\n로그아웃 시 메모리의 액세스 토큰을 제거하고 로그인 화면으로 이동한다. 장기 인증 정보는 프론트엔드 코드에서 직접 삭제하지 않고 서버 로그아웃 API로 만료시키는 것이 목표다."
+  },
+  {
+    "chunk_id": "195f7709-7b7e-400f-a28b-d87a4330bf70",
+    "source_type": "requirement_doc",
+    "title": "Frontend Architecture > 화면 구성",
+    "content": "페이지 컴포넌트는 화면 조합과 사용자 이벤트 연결을 담당한다. 재사용 가능한 UI는 `src/components`로 분리하고 인증 및 업무 데이터 로직은 `src/hooks`에서 관리한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/frontend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Frontend Architecture > 화면 구성\n페이지 컴포넌트는 화면 조합과 사용자 이벤트 연결을 담당한다. 재사용 가능한 UI는 `src/components`로 분리하고 인증 및 업무 데이터 로직은 `src/hooks`에서 관리한다."
+  },
+  {
+    "chunk_id": "141769a6-d9da-468c-a5a3-0cc62f43a965",
+    "source_type": "requirement_doc",
+    "title": "Frontend Architecture > 인증 상태 관리",
+    "content": "로그인과 세션 복원 로직은 `useAuth` 훅으로 분리한다. 액세스 토큰은 메모리 상태로 유지하고 장기 인증 정보는 브라우저 저장소에 직접 보관하지 않는 것을 원칙으로 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/frontend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Frontend Architecture > 인증 상태 관리\n로그인과 세션 복원 로직은 `useAuth` 훅으로 분리한다. 액세스 토큰은 메모리 상태로 유지하고 장기 인증 정보는 브라우저 저장소에 직접 보관하지 않는 것을 원칙으로 한다."
+  },
+  {
+    "chunk_id": "5c7993f8-2314-4be2-8933-3e4921d3d816",
+    "source_type": "requirement_doc",
+    "title": "Frontend Architecture > 업무 데이터 관리",
+    "content": "업무 목록 조회와 상태 변경은 전용 훅에서 처리하고 페이지에서는 데이터 로딩과 상태 변경 함수만 사용하도록 한다. 상태 변경은 optimistic update 후 실패 시 rollback하는 방식을 사용한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/frontend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11
+    },
+    "embedding_text": "[요구사항 문서] Frontend Architecture > 업무 데이터 관리\n업무 목록 조회와 상태 변경은 전용 훅에서 처리하고 페이지에서는 데이터 로딩과 상태 변경 함수만 사용하도록 한다. 상태 변경은 optimistic update 후 실패 시 rollback하는 방식을 사용한다."
+  },
+  {
+    "chunk_id": "596e4766-c5ee-41d3-9ce8-9f0d08895c27",
+    "source_type": "requirement_doc",
+    "title": "Frontend Architecture > API 호출",
+    "content": "프론트엔드 내부의 `src/api` 모듈은 백엔드 API를 호출하기 위한 얇은 wrapper다. 별도의 백엔드 API 명세 문서를 이 인수인계 묶음에 포함하지 않고, 프론트엔드가 실제로 호출하는 endpoint와 요청 형태는 코드에서 확인한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/frontend-architecture.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 13
+    },
+    "embedding_text": "[요구사항 문서] Frontend Architecture > API 호출\n프론트엔드 내부의 `src/api` 모듈은 백엔드 API를 호출하기 위한 얇은 wrapper다. 별도의 백엔드 API 명세 문서를 이 인수인계 묶음에 포함하지 않고, 프론트엔드가 실제로 호출하는 endpoint와 요청 형태는 코드에서 확인한다."
+  },
+  {
+    "chunk_id": "4af1b7f0-b48b-41b1-8ab9-a05fa4034640",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-01 Refresh Token 임시 저장",
+    "content": "현재 `useAuth.ts`는 백엔드 쿠키 방식이 아직 적용되지 않았던 시점의 임시 구현이 남아 있어 refresh token을 localStorage에서 읽는다. FE-102와 `auth-flow.md`의 목표 설계와 일치하지 않는다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 3,
+      "end_line": 5
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-01 Refresh Token 임시 저장\n현재 `useAuth.ts`는 백엔드 쿠키 방식이 아직 적용되지 않았던 시점의 임시 구현이 남아 있어 refresh token을 localStorage에서 읽는다. FE-102와 `auth-flow.md`의 목표 설계와 일치하지 않는다."
+  },
+  {
+    "chunk_id": "0d094a2b-afef-48df-bfea-a7e049584199",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-02 업무 상태 변경 로직 위치",
+    "content": "설계 문서에서는 업무 데이터 로직을 전용 훅에서 관리한다고 되어 있으나 `TaskBoardPage.tsx`에 상태 변경 로직 일부가 직접 남아 있다. 후임자가 `useTasks.ts`로 옮기는 리팩터링을 진행해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 6,
+      "end_line": 8
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-02 업무 상태 변경 로직 위치\n설계 문서에서는 업무 데이터 로직을 전용 훅에서 관리한다고 되어 있으나 `TaskBoardPage.tsx`에 상태 변경 로직 일부가 직접 남아 있다. 후임자가 `useTasks.ts`로 옮기는 리팩터링을 진행해야 한다."
+  },
+  {
+    "chunk_id": "5b577789-b8d2-43c9-8f6d-2976fa00e8b8",
+    "source_type": "requirement_doc",
+    "title": "Known Issues > KI-03 Node 버전 문서 불일치 가능성",
+    "content": "README에는 Node.js 18 이상이라고 적혀 있지만 현재 `package.json`의 engines는 Node.js 20 이상으로 설정되어 있다. 실제 배포 환경 기준을 확인한 뒤 한쪽을 수정해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "docs/known-issues.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 10
+    },
+    "embedding_text": "[요구사항 문서] Known Issues > KI-03 Node 버전 문서 불일치 가능성\nREADME에는 Node.js 18 이상이라고 적혀 있지만 현재 `package.json`의 engines는 Node.js 20 이상으로 설정되어 있다. 실제 배포 환경 기준을 확인한 뒤 한쪽을 수정해야 한다."
+  },
+  {
+    "chunk_id": "e43a373f-036b-46b2-8f62-4968d8f9d63e",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > FE-101 로그인 화면",
+    "content": "사용자는 이메일과 비밀번호를 입력해 로그인할 수 있어야 한다. 로그인 성공 시 `/board` 화면으로 이동하고 실패 시 오류 메시지를 표시해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 9,
+      "end_line": 11,
+      "frontmatter": {
+        "project": "Orbit Board",
+        "role": "Frontend Developer",
+        "handover_scope": "authentication, task-board"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > FE-101 로그인 화면\n사용자는 이메일과 비밀번호를 입력해 로그인할 수 있어야 한다. 로그인 성공 시 `/board` 화면으로 이동하고 실패 시 오류 메시지를 표시해야 한다."
+  },
+  {
+    "chunk_id": "f7806d88-5fc4-4909-9a07-1ef7baa0d4a3",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > FE-102 로그인 상태 복원",
+    "content": "브라우저를 새로 열거나 새로고침했을 때 기존 로그인 상태를 복원해야 한다. 리프레시 토큰은 HttpOnly Cookie로 관리하고 프론트엔드 JavaScript에서 직접 읽지 않는 것을 목표로 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 12,
+      "end_line": 14,
+      "frontmatter": {
+        "project": "Orbit Board",
+        "role": "Frontend Developer",
+        "handover_scope": "authentication, task-board"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > FE-102 로그인 상태 복원\n브라우저를 새로 열거나 새로고침했을 때 기존 로그인 상태를 복원해야 한다. 리프레시 토큰은 HttpOnly Cookie로 관리하고 프론트엔드 JavaScript에서 직접 읽지 않는 것을 목표로 한다."
+  },
+  {
+    "chunk_id": "931b0bbc-0ccc-4827-90b7-4f887b19c495",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > FE-103 업무 보드 조회",
+    "content": "사용자는 본인에게 할당된 업무 카드를 조회할 수 있어야 한다. 로딩 중에는 별도의 로딩 상태를 표시하고 조회 실패 시 사용자가 다시 요청할 수 있어야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 15,
+      "end_line": 17,
+      "frontmatter": {
+        "project": "Orbit Board",
+        "role": "Frontend Developer",
+        "handover_scope": "authentication, task-board"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > FE-103 업무 보드 조회\n사용자는 본인에게 할당된 업무 카드를 조회할 수 있어야 한다. 로딩 중에는 별도의 로딩 상태를 표시하고 조회 실패 시 사용자가 다시 요청할 수 있어야 한다."
+  },
+  {
+    "chunk_id": "d4af6991-baf5-409f-8629-85b6ed256d1d",
+    "source_type": "requirement_doc",
+    "title": "담당 기능 요구사항 > FE-104 업무 상태 변경",
+    "content": "업무 카드는 TODO, IN_PROGRESS, DONE 상태를 가진다. 상태 변경 시 화면을 먼저 갱신하는 optimistic update를 적용하고 서버 요청 실패 시 이전 상태로 복원해야 한다.",
+    "author": null,
+    "created_at": null,
+    "file_path": "requirements/assigned-tasks.md",
+    "metadata": {
+      "heading_level": 2,
+      "start_line": 18,
+      "end_line": 19,
+      "frontmatter": {
+        "project": "Orbit Board",
+        "role": "Frontend Developer",
+        "handover_scope": "authentication, task-board"
+      }
+    },
+    "embedding_text": "[요구사항 문서] 담당 기능 요구사항 > FE-104 업무 상태 변경\n업무 카드는 TODO, IN_PROGRESS, DONE 상태를 가진다. 상태 변경 시 화면을 먼저 갱신하는 optimistic update를 적용하고 서버 요청 실패 시 이전 상태로 복원해야 한다."
+  },
+  {
+    "chunk_id": "7b721960-8a6d-47e6-8cb0-8a36ca546dca",
+    "source_type": "code",
+    "title": "src/api/auth.ts :: function loginRequest",
+    "content": "export async function loginRequest(payload: LoginPayload) {\n  return apiRequest<LoginResponse>(\"/auth/login\", {\n    method: \"POST\",\n    body: JSON.stringify(payload),\n  });\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/api/auth.ts",
+    "metadata": {
+      "kind": "function",
+      "exported": true,
+      "start_line": 4,
+      "end_line": 9,
+      "imports": [
+        "./client",
+        "../types/auth"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/api/auth.ts :: function loginRequest\nexport async function loginRequest(payload: LoginPayload) {\n  return apiRequest<LoginResponse>(\"/auth/login\", {\n    method: \"POST\",\n    body: JSON.stringify(payload),\n  });\n}"
+  },
+  {
+    "chunk_id": "a0e4bc3c-6257-42ac-98e4-b2a31f0278be",
+    "source_type": "code",
+    "title": "src/api/auth.ts :: function refreshRequest",
+    "content": "export async function refreshRequest(refreshToken: string | null) {\n  return apiRequest<{ accessToken: string }>(\"/auth/refresh\", {\n    method: \"POST\",\n    body: JSON.stringify({ refreshToken }),\n  });\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/api/auth.ts",
+    "metadata": {
+      "kind": "function",
+      "exported": true,
+      "start_line": 11,
+      "end_line": 16,
+      "imports": [
+        "./client",
+        "../types/auth"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/api/auth.ts :: function refreshRequest\nexport async function refreshRequest(refreshToken: string | null) {\n  return apiRequest<{ accessToken: string }>(\"/auth/refresh\", {\n    method: \"POST\",\n    body: JSON.stringify({ refreshToken }),\n  });\n}"
+  },
+  {
+    "chunk_id": "6152e419-640d-4b73-9695-2f0b68cdd8cd",
+    "source_type": "code",
+    "title": "src/api/auth.ts :: function logoutRequest",
+    "content": "export async function logoutRequest() {\n  return apiRequest<void>(\"/auth/logout\", {\n    method: \"POST\",\n  });\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/api/auth.ts",
+    "metadata": {
+      "kind": "function",
+      "exported": true,
+      "start_line": 18,
+      "end_line": 22,
+      "imports": [
+        "./client",
+        "../types/auth"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/api/auth.ts :: function logoutRequest\nexport async function logoutRequest() {\n  return apiRequest<void>(\"/auth/logout\", {\n    method: \"POST\",\n  });\n}"
+  },
+  {
+    "chunk_id": "ca3f8196-ede9-440c-80fc-1b6d41eb72b6",
+    "source_type": "code",
+    "title": "src/api/client.ts :: const API_BASE_URL",
+    "content": "const API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? \"/api/v1\";",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/api/client.ts",
+    "metadata": {
+      "kind": "const",
+      "exported": false,
+      "start_line": 1,
+      "end_line": 1,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/api/client.ts :: const API_BASE_URL\nconst API_BASE_URL = import.meta.env.VITE_API_BASE_URL ?? \"/api/v1\";"
+  },
+  {
+    "chunk_id": "50aacf79-43fa-4390-8514-31f410c6cd31",
+    "source_type": "code",
+    "title": "src/api/client.ts :: function apiRequest",
+    "content": "export async function apiRequest<T>(\n  path: string,\n  options: RequestInit = {}\n): Promise<T> {\n  const response = await fetch(`${API_BASE_URL}${path}`, {\n    ...options,\n    headers: {\n      \"Content-Type\": \"application/json\",\n      ...(options.headers || {}),\n    },\n    credentials: \"include\",\n  });\n\n  if (!response.ok) {\n    throw new Error(`API request failed: ${response.status}`);\n  }\n\n  return response.json() as Promise<T>;\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/api/client.ts",
+    "metadata": {
+      "kind": "function",
+      "exported": true,
+      "start_line": 3,
+      "end_line": 21,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/api/client.ts :: function apiRequest\nexport async function apiRequest<T>(\n  path: string,\n  options: RequestInit = {}\n): Promise<T> {\n  const response = await fetch(`${API_BASE_URL}${path}`, {\n    ...options,\n    headers: {\n      \"Content-Type\": \"application/json\",\n      ...(options.headers || {}),\n    },\n    credentials: \"include\",\n  });\n\n  if (!response.ok) {\n    throw new Error(`API request failed: ${response.status}`);\n  }\n\n  return response.json() as Promise<T>;\n}"
+  },
+  {
+    "chunk_id": "10e8ea1e-b365-4a87-8b9a-af363f7e4d05",
+    "source_type": "code",
+    "title": "src/api/tasks.ts :: function fetchAssignedTasks",
+    "content": "export async function fetchAssignedTasks() {\n  return apiRequest<Task[]>(\"/tasks/assigned\");\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/api/tasks.ts",
+    "metadata": {
+      "kind": "function",
+      "exported": true,
+      "start_line": 4,
+      "end_line": 6,
+      "imports": [
+        "./client",
+        "../types/task"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/api/tasks.ts :: function fetchAssignedTasks\nexport async function fetchAssignedTasks() {\n  return apiRequest<Task[]>(\"/tasks/assigned\");\n}"
+  },
+  {
+    "chunk_id": "24527d27-3740-48bb-992b-8f450f6266d7",
+    "source_type": "code",
+    "title": "src/api/tasks.ts :: function updateTaskStatusRequest",
+    "content": "export async function updateTaskStatusRequest(taskId: string, status: TaskStatus) {\n  return apiRequest<Task>(`/tasks/${taskId}/status`, {\n    method: \"PATCH\",\n    body: JSON.stringify({ status }),\n  });\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/api/tasks.ts",
+    "metadata": {
+      "kind": "function",
+      "exported": true,
+      "start_line": 8,
+      "end_line": 13,
+      "imports": [
+        "./client",
+        "../types/task"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/api/tasks.ts :: function updateTaskStatusRequest\nexport async function updateTaskStatusRequest(taskId: string, status: TaskStatus) {\n  return apiRequest<Task>(`/tasks/${taskId}/status`, {\n    method: \"PATCH\",\n    body: JSON.stringify({ status }),\n  });\n}"
+  },
+  {
+    "chunk_id": "e362bd30-a40d-4db2-8a78-a3f70496c95e",
+    "source_type": "code",
+    "title": "src/components/LoginForm.tsx :: component LoginForm",
+    "content": "export const LoginForm = ({\n  onSubmit,\n}: {\n  onSubmit: (email: string, password: string) => Promise<void>;\n}) => {\n  const [email, setEmail] = useState(\"\");\n  const [password, setPassword] = useState(\"\");\n\n  const handleSubmit = async (event: React.FormEvent) => {\n    event.preventDefault();\n    await onSubmit(email, password);\n  };\n\n  return (\n    <form onSubmit={handleSubmit}>\n      <input\n        aria-label=\"이메일\"\n        value={email}\n        onChange={(event) => setEmail(event.target.value)}\n      />\n      <input\n        aria-label=\"비밀번호\"\n        type=\"password\"\n        value={password}\n        onChange={(event) => setPassword(event.target.value)}\n      />\n      <button type=\"submit\">로그인</button>\n    </form>\n  );\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/components/LoginForm.tsx",
+    "metadata": {
+      "kind": "component",
+      "exported": true,
+      "start_line": 3,
+      "end_line": 32,
+      "imports": [
+        "react"
+      ],
+      "hooks_used": [
+        "useState"
+      ]
+    },
+    "embedding_text": "[코드] src/components/LoginForm.tsx :: component LoginForm\nexport const LoginForm = ({\n  onSubmit,\n}: {\n  onSubmit: (email: string, password: string) => Promise<void>;\n}) => {\n  const [email, setEmail] = useState(\"\");\n  const [password, setPassword] = useState(\"\");\n\n  const handleSubmit = async (event: React.FormEvent) => {\n    event.preventDefault();\n    await onSubmit(email, password);\n  };\n\n  return (\n    <form onSubmit={handleSubmit}>\n      <input\n        aria-label=\"이메일\"\n        value={email}\n        onChange={(event) => setEmail(event.target.value)}\n      />\n      <input\n        aria-label=\"비밀번호\"\n        type=\"password\"\n        value={password}\n        onChange={(event) => setPassword(event.target.value)}\n      />\n      <button type=\"submit\">로그인</button>\n    </form>\n  );\n};"
+  },
+  {
+    "chunk_id": "13be474f-4745-4cc3-a8ba-7119df88d73e",
+    "source_type": "code",
+    "title": "src/components/StatusBadge.tsx :: component StatusBadge",
+    "content": "export const StatusBadge = ({ status }: { status: TaskStatus }) => {\n  return <span data-status={status}>{status}</span>;\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/components/StatusBadge.tsx",
+    "metadata": {
+      "kind": "component",
+      "exported": true,
+      "start_line": 4,
+      "end_line": 6,
+      "imports": [
+        "react",
+        "../types/task"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/components/StatusBadge.tsx :: component StatusBadge\nexport const StatusBadge = ({ status }: { status: TaskStatus }) => {\n  return <span data-status={status}>{status}</span>;\n};"
+  },
+  {
+    "chunk_id": "c44e1389-481a-4574-ae20-3079693c7937",
+    "source_type": "code",
+    "title": "src/components/TaskCard.tsx :: component TaskCard",
+    "content": "export const TaskCard = ({\n  task,\n  onChangeStatus,\n}: {\n  task: Task;\n  onChangeStatus: (taskId: string, status: TaskStatus) => void;\n}) => {\n  return (\n    <article>\n      <h2>{task.title}</h2>\n      <p>{task.assignee}</p>\n      <StatusBadge status={task.status} />\n      <button onClick={() => onChangeStatus(task.id, \"DONE\")}>완료 처리</button>\n    </article>\n  );\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/components/TaskCard.tsx",
+    "metadata": {
+      "kind": "component",
+      "exported": true,
+      "start_line": 5,
+      "end_line": 20,
+      "imports": [
+        "react",
+        "../types/task",
+        "./StatusBadge"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/components/TaskCard.tsx :: component TaskCard\nexport const TaskCard = ({\n  task,\n  onChangeStatus,\n}: {\n  task: Task;\n  onChangeStatus: (taskId: string, status: TaskStatus) => void;\n}) => {\n  return (\n    <article>\n      <h2>{task.title}</h2>\n      <p>{task.assignee}</p>\n      <StatusBadge status={task.status} />\n      <button onClick={() => onChangeStatus(task.id, \"DONE\")}>완료 처리</button>\n    </article>\n  );\n};"
+  },
+  {
+    "chunk_id": "6ed1714e-88b3-4711-a518-e38b972c2985",
+    "source_type": "code",
+    "title": "src/hooks/useAuth.ts :: const useAuth",
+    "content": "export const useAuth = () => {\n  const [accessToken, setAccessToken] = useState<string | null>(null);\n  const [isRestoring, setIsRestoring] = useState(true);\n\n  const login = async (email: string, password: string) => {\n    const result = await loginRequest({ email, password });\n    setAccessToken(result.accessToken);\n\n    // TODO(FE-102): backend cookie 방식 전환 후 제거\n    if (result.refreshToken) {\n      localStorage.setItem(\"refreshToken\", result.refreshToken);\n    }\n  };\n\n  const restoreSession = async () => {\n    try {\n      const refreshToken = localStorage.getItem(\"refreshToken\");\n      const result = await refreshRequest(refreshToken);\n      setAccessToken(result.accessToken);\n    } catch {\n      setAccessToken(null);\n    } finally {\n      setIsRestoring(false);\n    }\n  };\n\n  const logout = async () => {\n    await logoutRequest();\n    localStorage.removeItem(\"refreshToken\");\n    setAccessToken(null);\n  };\n\n  useEffect(() => {\n    restoreSession();\n  }, []);\n\n  return {\n    accessToken,\n    isRestoring,\n    login,\n    logout,\n  };\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/hooks/useAuth.ts",
+    "metadata": {
+      "kind": "const",
+      "exported": true,
+      "start_line": 4,
+      "end_line": 46,
+      "imports": [
+        "react",
+        "../api/auth"
+      ],
+      "hooks_used": [
+        "useEffect",
+        "useState"
+      ]
+    },
+    "embedding_text": "[코드] src/hooks/useAuth.ts :: const useAuth\nexport const useAuth = () => {\n  const [accessToken, setAccessToken] = useState<string | null>(null);\n  const [isRestoring, setIsRestoring] = useState(true);\n\n  const login = async (email: string, password: string) => {\n    const result = await loginRequest({ email, password });\n    setAccessToken(result.accessToken);\n\n    // TODO(FE-102): backend cookie 방식 전환 후 제거\n    if (result.refreshToken) {\n      localStorage.setItem(\"refreshToken\", result.refreshToken);\n    }\n  };\n\n  const restoreSession = async () => {\n    try {\n      const refreshToken = localStorage.getItem(\"refreshToken\");\n      const result = await refreshRequest(refreshToken);\n      setAccessToken(result.accessToken);\n    } catch {\n      setAccessToken(null);\n    } finally {\n      setIsRestoring(false);\n    }\n  };\n\n  const logout = async () => {\n    await logoutRequest();\n    localStorage.removeItem(\"refreshToken\");\n    setAccessToken(null);\n  };\n\n  useEffect(() => {\n    restoreSession();\n  }, []);\n\n  return {\n    accessToken,\n    isRestoring,\n    login,\n    logout,\n  };\n};"
+  },
+  {
+    "chunk_id": "b3ed4b06-d843-4cf8-a9cc-c409612366de",
+    "source_type": "code",
+    "title": "src/hooks/useTasks.ts :: const useTasks",
+    "content": "export const useTasks = () => {\n  const [tasks, setTasks] = useState<Task[]>([]);\n  const [isLoading, setIsLoading] = useState(true);\n  const [error, setError] = useState(\"\");\n\n  const loadTasks = async () => {\n    try {\n      setIsLoading(true);\n      setError(\"\");\n      setTasks(await fetchAssignedTasks());\n    } catch {\n      setError(\"업무 목록을 불러오지 못했습니다.\");\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  useEffect(() => {\n    loadTasks();\n  }, []);\n\n  return {\n    tasks,\n    setTasks,\n    isLoading,\n    error,\n    setError,\n    reload: loadTasks,\n  };\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/hooks/useTasks.ts",
+    "metadata": {
+      "kind": "const",
+      "exported": true,
+      "start_line": 5,
+      "end_line": 34,
+      "imports": [
+        "react",
+        "../api/tasks",
+        "../types/task"
+      ],
+      "hooks_used": [
+        "useEffect",
+        "useState"
+      ]
+    },
+    "embedding_text": "[코드] src/hooks/useTasks.ts :: const useTasks\nexport const useTasks = () => {\n  const [tasks, setTasks] = useState<Task[]>([]);\n  const [isLoading, setIsLoading] = useState(true);\n  const [error, setError] = useState(\"\");\n\n  const loadTasks = async () => {\n    try {\n      setIsLoading(true);\n      setError(\"\");\n      setTasks(await fetchAssignedTasks());\n    } catch {\n      setError(\"업무 목록을 불러오지 못했습니다.\");\n    } finally {\n      setIsLoading(false);\n    }\n  };\n\n  useEffect(() => {\n    loadTasks();\n  }, []);\n\n  return {\n    tasks,\n    setTasks,\n    isLoading,\n    error,\n    setError,\n    reload: loadTasks,\n  };\n};"
+  },
+  {
+    "chunk_id": "5d09d4a1-81f3-455d-804d-493d694b00ee",
+    "source_type": "code",
+    "title": "src/pages/LoginPage.tsx :: component LoginPage",
+    "content": "export const LoginPage = () => {\n  const { login } = useAuth();\n  const [error, setError] = useState(\"\");\n\n  const handleLogin = async (email: string, password: string) => {\n    try {\n      setError(\"\");\n      await login(email, password);\n      window.location.href = \"/board\";\n    } catch {\n      setError(\"로그인에 실패했습니다.\");\n    }\n  };\n\n  return (\n    <main>\n      <h1>Orbit Board</h1>\n      <LoginForm onSubmit={handleLogin} />\n      {error && <p role=\"alert\">{error}</p>}\n    </main>\n  );\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/pages/LoginPage.tsx",
+    "metadata": {
+      "kind": "component",
+      "exported": true,
+      "start_line": 5,
+      "end_line": 26,
+      "imports": [
+        "react",
+        "../components/LoginForm",
+        "../hooks/useAuth"
+      ],
+      "hooks_used": [
+        "useAuth",
+        "useState"
+      ]
+    },
+    "embedding_text": "[코드] src/pages/LoginPage.tsx :: component LoginPage\nexport const LoginPage = () => {\n  const { login } = useAuth();\n  const [error, setError] = useState(\"\");\n\n  const handleLogin = async (email: string, password: string) => {\n    try {\n      setError(\"\");\n      await login(email, password);\n      window.location.href = \"/board\";\n    } catch {\n      setError(\"로그인에 실패했습니다.\");\n    }\n  };\n\n  return (\n    <main>\n      <h1>Orbit Board</h1>\n      <LoginForm onSubmit={handleLogin} />\n      {error && <p role=\"alert\">{error}</p>}\n    </main>\n  );\n};"
+  },
+  {
+    "chunk_id": "486d2f5d-27ed-44fa-9642-e204afb68d6f",
+    "source_type": "code",
+    "title": "src/pages/TaskBoardPage.tsx :: component TaskBoardPage",
+    "content": "export const TaskBoardPage = () => {\n  const { tasks, setTasks, isLoading, error, setError, reload } = useTasks();\n\n  const handleStatusChange = async (taskId: string, status: TaskStatus) => {\n    const previousTasks = tasks;\n\n    setTasks((current) =>\n      current.map((task) =>\n        task.id === taskId ? { ...task, status } : task\n      )\n    );\n\n    try {\n      await updateTaskStatusRequest(taskId, status);\n    } catch {\n      setTasks(previousTasks);\n      setError(\"상태 변경에 실패했습니다.\");\n    }\n  };\n\n  if (isLoading) {\n    return <div>업무 목록 로딩 중...</div>;\n  }\n\n  return (\n    <main>\n      <h1>내 업무</h1>\n      {error && <button onClick={reload}>{error} 다시 시도</button>}\n      {tasks.map((task) => (\n        <TaskCard\n          key={task.id}\n          task={task}\n          onChangeStatus={handleStatusChange}\n        />\n      ))}\n    </main>\n  );\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/pages/TaskBoardPage.tsx",
+    "metadata": {
+      "kind": "component",
+      "exported": true,
+      "start_line": 7,
+      "end_line": 44,
+      "imports": [
+        "react",
+        "../components/TaskCard",
+        "../api/tasks",
+        "../hooks/useTasks",
+        "../types/task"
+      ],
+      "hooks_used": [
+        "useTasks"
+      ]
+    },
+    "embedding_text": "[코드] src/pages/TaskBoardPage.tsx :: component TaskBoardPage\nexport const TaskBoardPage = () => {\n  const { tasks, setTasks, isLoading, error, setError, reload } = useTasks();\n\n  const handleStatusChange = async (taskId: string, status: TaskStatus) => {\n    const previousTasks = tasks;\n\n    setTasks((current) =>\n      current.map((task) =>\n        task.id === taskId ? { ...task, status } : task\n      )\n    );\n\n    try {\n      await updateTaskStatusRequest(taskId, status);\n    } catch {\n      setTasks(previousTasks);\n      setError(\"상태 변경에 실패했습니다.\");\n    }\n  };\n\n  if (isLoading) {\n    return <div>업무 목록 로딩 중...</div>;\n  }\n\n  return (\n    <main>\n      <h1>내 업무</h1>\n      {error && <button onClick={reload}>{error} 다시 시도</button>}\n      {tasks.map((task) => (\n        <TaskCard\n          key={task.id}\n          task={task}\n          onChangeStatus={handleStatusChange}\n        />\n      ))}\n    </main>\n  );\n};"
+  },
+  {
+    "chunk_id": "1b20352e-7c82-4672-90c8-0a57a2720b31",
+    "source_type": "code",
+    "title": "src/types/auth.ts :: type LoginPayload",
+    "content": "export type LoginPayload = {\n  email: string;\n  password: string;\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/types/auth.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 1,
+      "end_line": 4,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/types/auth.ts :: type LoginPayload\nexport type LoginPayload = {\n  email: string;\n  password: string;\n};"
+  },
+  {
+    "chunk_id": "02759b47-3ea3-462a-951b-3dc658cec572",
+    "source_type": "code",
+    "title": "src/types/auth.ts :: type LoginResponse",
+    "content": "export type LoginResponse = {\n  accessToken: string;\n  refreshToken?: string;\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/types/auth.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 6,
+      "end_line": 9,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/types/auth.ts :: type LoginResponse\nexport type LoginResponse = {\n  accessToken: string;\n  refreshToken?: string;\n};"
+  },
+  {
+    "chunk_id": "d7e7e28a-620f-458a-a4a2-e97573b1b506",
+    "source_type": "code",
+    "title": "src/types/auth.ts :: type AuthState",
+    "content": "export type AuthState = {\n  accessToken: string | null;\n  isRestoring: boolean;\n};",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/types/auth.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 11,
+      "end_line": 14,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/types/auth.ts :: type AuthState\nexport type AuthState = {\n  accessToken: string | null;\n  isRestoring: boolean;\n};"
+  },
+  {
+    "chunk_id": "551c294c-4eca-42a0-a5fd-5040138e47d0",
+    "source_type": "code",
+    "title": "src/types/task.ts :: type TaskStatus",
+    "content": "export type TaskStatus = \"TODO\" | \"IN_PROGRESS\" | \"DONE\";",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/types/task.ts",
+    "metadata": {
+      "kind": "type",
+      "exported": true,
+      "start_line": 1,
+      "end_line": 1,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/types/task.ts :: type TaskStatus\nexport type TaskStatus = \"TODO\" | \"IN_PROGRESS\" | \"DONE\";"
+  },
+  {
+    "chunk_id": "775628b0-84da-4695-b64f-88080aec3fb0",
+    "source_type": "code",
+    "title": "src/types/task.ts :: interface Task",
+    "content": "export interface Task {\n  id: string;\n  title: string;\n  assignee: string;\n  status: TaskStatus;\n}",
+    "author": null,
+    "created_at": null,
+    "file_path": "src/types/task.ts",
+    "metadata": {
+      "kind": "interface",
+      "exported": true,
+      "start_line": 3,
+      "end_line": 8,
+      "imports": [],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] src/types/task.ts :: interface Task\nexport interface Task {\n  id: string;\n  title: string;\n  assignee: string;\n  status: TaskStatus;\n}"
+  },
+  {
+    "chunk_id": "3c716ab6-1d4b-446c-bb37-09e325ac2b6d",
+    "source_type": "code",
+    "title": "tests/LoginPage.test.tsx :: other LoginPage.test",
+    "content": "import { describe, expect, it } from \"vitest\";\n\ndescribe(\"LoginPage\", () => {\n  it(\"로그인 성공 시 board 화면으로 이동해야 한다\", () => {\n    const expectedPath = \"/board\";\n    expect(expectedPath).toBe(\"/board\");\n  });\n\n  it(\"로그인 실패 시 오류 메시지를 보여줘야 한다\", () => {\n    const errorMessage = \"로그인에 실패했습니다.\";\n    expect(errorMessage).toContain(\"실패\");\n  });\n});\n",
+    "author": null,
+    "created_at": null,
+    "file_path": "tests/LoginPage.test.tsx",
+    "metadata": {
+      "kind": "other",
+      "exported": false,
+      "start_line": 1,
+      "end_line": 13,
+      "imports": [
+        "vitest"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] tests/LoginPage.test.tsx :: other LoginPage.test\nimport { describe, expect, it } from \"vitest\";\n\ndescribe(\"LoginPage\", () => {\n  it(\"로그인 성공 시 board 화면으로 이동해야 한다\", () => {\n    const expectedPath = \"/board\";\n    expect(expectedPath).toBe(\"/board\");\n  });\n\n  it(\"로그인 실패 시 오류 메시지를 보여줘야 한다\", () => {\n    const errorMessage = \"로그인에 실패했습니다.\";\n    expect(errorMessage).toContain(\"실패\");\n  });\n});\n"
+  },
+  {
+    "chunk_id": "fcd3edca-023d-4b3b-8061-205eab566ace",
+    "source_type": "code",
+    "title": "tests/TaskBoardPage.test.tsx :: other TaskBoardPage.test",
+    "content": "import { describe, expect, it } from \"vitest\";\n\ndescribe(\"TaskBoardPage\", () => {\n  it(\"업무 조회 실패 시 다시 시도할 수 있어야 한다\", () => {\n    const canRetry = true;\n    expect(canRetry).toBe(true);\n  });\n\n  // FE-104 optimistic rollback 테스트는 아직 작성되지 않음\n});\n",
+    "author": null,
+    "created_at": null,
+    "file_path": "tests/TaskBoardPage.test.tsx",
+    "metadata": {
+      "kind": "other",
+      "exported": false,
+      "start_line": 1,
+      "end_line": 10,
+      "imports": [
+        "vitest"
+      ],
+      "hooks_used": []
+    },
+    "embedding_text": "[코드] tests/TaskBoardPage.test.tsx :: other TaskBoardPage.test\nimport { describe, expect, it } from \"vitest\";\n\ndescribe(\"TaskBoardPage\", () => {\n  it(\"업무 조회 실패 시 다시 시도할 수 있어야 한다\", () => {\n    const canRetry = true;\n    expect(canRetry).toBe(true);\n  });\n\n  // FE-104 optimistic rollback 테스트는 아직 작성되지 않음\n});\n"
+  },
+  {
+    "chunk_id": "a5f05985-0b3f-4f94-9ecd-5a3aeeaa93bf",
+    "source_type": "git_commit",
+    "title": "feat: add assigned task board",
+    "content": "feat: add assigned task board\n\nImplements FE-103 and FE-104 UI. Optimistic rollback test remains TODO.\n\n[변경 파일]\n- src/components/StatusBadge.tsx (+6/-0)\n- src/components/TaskCard.tsx (+20/-0)\n- src/hooks/useTasks.ts (+34/-0)\n- src/pages/TaskBoardPage.tsx (+44/-0)\n- tests/TaskBoardPage.test.tsx (+10/-0)",
+    "author": "Jin Frontend",
+    "created_at": "2026-08-26T14:07:59Z",
+    "file_path": null,
+    "metadata": {
+      "sha": "a8bd1192ab5dd54e045af41f6d99ebf826737390",
+      "email": "jin.frontend@example.com",
+      "files_changed": 5,
+      "lines_added": 114,
+      "lines_deleted": 0
+    },
+    "embedding_text": "[커밋] feat: add assigned task board\nfeat: add assigned task board\n\nImplements FE-103 and FE-104 UI. Optimistic rollback test remains TODO.\n\n[변경 파일]\n- src/components/StatusBadge.tsx (+6/-0)\n- src/components/TaskCard.tsx (+20/-0)\n- src/hooks/useTasks.ts (+34/-0)\n- src/pages/TaskBoardPage.tsx (+44/-0)\n- tests/TaskBoardPage.test.tsx (+10/-0)"
+  },
+  {
+    "chunk_id": "1ad778ff-160e-49a2-a0d2-b405646bcb89",
+    "source_type": "git_commit",
+    "title": "feat: implement login and session restore",
+    "content": "feat: implement login and session restore\n\nImplements FE-101. FE-102 still uses temporary localStorage refresh token handling.\n\n[변경 파일]\n- src/api/auth.ts (+22/-0)\n- src/api/client.ts (+21/-0)\n- src/api/tasks.ts (+13/-0)\n- src/components/LoginForm.tsx (+32/-0)\n- src/hooks/useAuth.ts (+46/-0)\n- src/pages/LoginPage.tsx (+26/-0)\n- tests/LoginPage.test.tsx (+13/-0)",
+    "author": "Jin Frontend",
+    "created_at": "2026-08-26T14:07:59Z",
+    "file_path": null,
+    "metadata": {
+      "sha": "531cffb19c7a9641a50c85cc941df832ba34ce08",
+      "email": "jin.frontend@example.com",
+      "files_changed": 7,
+      "lines_added": 173,
+      "lines_deleted": 0
+    },
+    "embedding_text": "[커밋] feat: implement login and session restore\nfeat: implement login and session restore\n\nImplements FE-101. FE-102 still uses temporary localStorage refresh token handling.\n\n[변경 파일]\n- src/api/auth.ts (+22/-0)\n- src/api/client.ts (+21/-0)\n- src/api/tasks.ts (+13/-0)\n- src/components/LoginForm.tsx (+32/-0)\n- src/hooks/useAuth.ts (+46/-0)\n- src/pages/LoginPage.tsx (+26/-0)\n- tests/LoginPage.test.tsx (+13/-0)"
+  },
+  {
+    "chunk_id": "fb48f2bd-8460-437a-b967-5f2e757a71c4",
+    "source_type": "git_commit",
+    "title": "docs: add frontend handover requirements and notes",
+    "content": "docs: add frontend handover requirements and notes\n\nDocuments FE-101 through FE-104 and frontend-only handover scope.\n\n[변경 파일]\n- .env.example (+1/-0)\n- PARSER_TEST.md (+13/-0)\n- README.md (+19/-0)\n- docs/auth-flow.md (+10/-0)\n- docs/frontend-architecture.md (+13/-0)\n- docs/known-issues.md (+10/-0)\n- package.json (+24/-0)\n- requirements/assigned-tasks.md (+19/-0)\n- src/types/auth.ts (+14/-0)\n- src/types/task.ts (+8/-0)",
+    "author": "Jin Frontend",
+    "created_at": "2026-08-26T14:07:59Z",
+    "file_path": null,
+    "metadata": {
+      "sha": "9d76458474ec2bd540f42a6c148577c2c9906c27",
+      "email": "jin.frontend@example.com",
+      "files_changed": 10,
+      "lines_added": 131,
+      "lines_deleted": 0
+    },
+    "embedding_text": "[커밋] docs: add frontend handover requirements and notes\ndocs: add frontend handover requirements and notes\n\nDocuments FE-101 through FE-104 and frontend-only handover scope.\n\n[변경 파일]\n- .env.example (+1/-0)\n- PARSER_TEST.md (+13/-0)\n- README.md (+19/-0)\n- docs/auth-flow.md (+10/-0)\n- docs/frontend-architecture.md (+13/-0)\n- docs/known-issues.md (+10/-0)\n- package.json (+24/-0)\n- requirements/assigned-tasks.md (+19/-0)\n- src/types/auth.ts (+14/-0)\n- src/types/task.ts (+8/-0)"
+  }
+]
